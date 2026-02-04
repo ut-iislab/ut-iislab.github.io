@@ -2,6 +2,7 @@
 title: "Resources"
 layout: textlay
 excerpt: "UT IIS Lab -- Resources"
+excerpt: "Open datasets, models, and tools for Persian NLP, speech processing, and information retrieval research"
 sitemap: true
 permalink: /resources/
 ---
