@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Resources"
 layout: textlay
 excerpt: "UT IIS Lab -- Resources"
@@ -103,4 +103,4 @@ Many of our projects include open-source code repositories. Visit our [GitHub or
 
 If you use our resources in your research, please cite the relevant papers. See individual resource pages for specific citation information.
 
----
+--- -->
