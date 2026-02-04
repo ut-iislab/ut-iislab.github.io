@@ -1,9 +1,8 @@
-# UTS NLP Research Group Website
-
-This is the website of our academic research group at the [University of Technology Sydney](https://www.uts.edu.au/). You can access our research group at [utsnlp.github.io](https://utsnlp.github.io/)
+# UT IIS Lab Website
+This is the website of our academic research group at the [University of Tehran](https://ut.ac.ir/en). You can access our research group at [ut-iislab.github.io](https://ut-iislab.github.io/)
 
 <p align=center>
-    <img src="./images/logopic/uts_logo_v2.png" width="25%" height="25%" alt="llm_align_world_example"/>
+    <img src="./images/logopic/ut_logo.png" width="25%" height="25%" alt="University of Tehran Logo"/>
 </p>
 
 The website template is powered by [Jekyll](https://jekyllrb.com/) and is easy to use. You don't need much front-end knowledge to maintain the website. You can update information by only writing `markdown` and `yml` files.
@@ -11,46 +10,41 @@ The website template is powered by [Jekyll](https://jekyllrb.com/) and is easy t
 ## How to Maintain the Website
 
 ### Update Locally
-
-If you want to make changes of the website and test it locally first, you need to install necessary environment. 
+If you want to make changes to the website and test it locally first, you need to install the necessary environment. 
 
 First, clone this repository: 
-
 ```bash
-git clone https://github.com/utsnlp/utsnlp.github.io.git
-cd utsnlp.github.io
+git clone https://github.com/ut-iislab/ut-iislab.github.io.git
+cd ut-iislab.github.io
 ```
 
-Then checkout to the `dev` branch, we recommend to do changes and test it on this branch before merging to the `main` branch:
-
+Then checkout to the `dev` branch. We recommend making changes and testing on this branch before merging to the `main` branch:
 ```bash
 git checkout dev
 ```
 
-This website is powered by [Jekyll](https://jekyllrb.com/), install Jekyll and its prerequisites (e.g., Ruby, GEM) by following the [doc](https://jekyllrb.com/docs/). 
-Then, in the project folder, run 
+This website is powered by [Jekyll](https://jekyllrb.com/). Install Jekyll and its prerequisites (e.g., Ruby, GEM) by following the [documentation](https://jekyllrb.com/docs/). 
 
+Then, in the project folder, run: 
 ```bash
 bundle exec jekyll serve
 ```
 
 Open your browser and review the website at: http://localhost:4000. 
-When the server is running, make your changes and refresh the website to review the changes.
-Once you have finished updating, commit your changes and push them to Github on `dev` branch.
 
-Raise a **pull request** and merge from `dev` to `main`. Github [actions](https://github.com/utsnlp/utsnlp.github.io/actions) will take care of the deployment. Now you can review the live site [utsnlp.github.io](https://utsnlp.github.io/).
+When the server is running, make your changes and refresh the website to review them.
 
+Once you have finished updating, commit your changes and push them to Github on the `dev` branch.
+
+Raise a **pull request** and merge from `dev` to `main`. Github [actions](https://github.com/ut-iislab/ut-iislab.github.io/actions) will handle the deployment. Now you can review the live site at [ut-iislab.github.io](https://ut-iislab.github.io/).
 
 ### Update Directly
-
-If you don't want to install the local environment, you can directly make changes by updating the **.md** or **.yml** files (see below), pushing the commits to Github, and reviewing the changes online. Note that, this will directly update the live site.
-
+If you don't want to install the local environment, you can directly make changes by updating the **.md** or **.yml** files (see below), pushing the commits to Github, and reviewing the changes online. Note that this will directly update the live site.
 
 ## Where to Maintain the Website
 
 ### Update Information
-
-If you only want to update information (e.g., add recent news, add new publications) without modifying the website structure, you can update relevant information by following the below table.
+If you only want to update information (e.g., add recent news, add new publications) without modifying the website structure, you can update relevant information by following the table below.
 
 | What to update             | Where to update             |
 | :------------------------- | :-------------------------- |
@@ -64,10 +58,8 @@ If you only want to update information (e.g., add recent news, add new publicati
 | projects                   | `_data/projects.yml`        |
 | vacancies                  | `_pages/openings.md`        |
 
-
 ### Update Website Structure
-
-Instead, If you want to change the website structure (e.g., rearrange image position, team member display, etc.), you can go through the following files and update them.
+If you want to change the website structure (e.g., rearrange image position, team member display, etc.), you can go through the following files and update them.
 
 | What to update | Where to update                                  |
 | :------------- | :----------------------------------------------- |
@@ -79,7 +71,16 @@ Instead, If you want to change the website structure (e.g., rearrange image posi
 | header         | `_includes/header.html`                          |
 | footer         | `_includes/footer.html`                          |
 
-## Acknowledgement
+## About the Lab
 
+The Intelligent Information Systems Lab is led by Associate Professor Azadeh Shakery at the University of Tehran. Our research focuses on:
+- Natural Language Processing
+- Information Retrieval
+- Machine Learning
+- Text Mining
+
+For more information about our research and publications, please visit our website.
+
+## Acknowledgement
 This website template is adapted from [Allan Lab](http://www.allanlab.org/aboutwebsite.html). 
 Thanks for open-sourcing the template.
