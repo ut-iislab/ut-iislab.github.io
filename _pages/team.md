@@ -281,12 +281,9 @@ permalink: /team/
 <br>
 
 ## Alumni
-
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
-
 {% assign even_odd = number_printed | modulo: 2 %}
-
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
@@ -297,34 +294,29 @@ permalink: /team/
   <i>
     {{ member.duration }} 
     <br>
-    <!-- co-supervised with {{ member.cosupervision }}
-    <br>  -->
-    Current: {{ member.info }}
+    Current: {{ member.current_position }}
+    <br>
+    {{ member.info }}
   </i>
   <br>
-  {% if member.url.personal_site != nil %}
+  {% if member.url.personal_site != nil and member.url.personal_site != "" %}
   <a href="{{ member.url.personal_site }}" target="_blank"><i class="fa-solid fa-house"></i></a> &nbsp;
   {%- endif -%}
-  {% if member.url.google_scholar != nil %}
+  {% if member.url.google_scholar != nil and member.url.google_scholar != "" %}
   <a href="{{ member.url.google_scholar }}" target="_blank"><i class="fa-brands fa-google"></i></a> &nbsp;
   {%- endif -%}
-  {% if member.url.github != nil %}
+  {% if member.url.github != nil and member.url.github != "" %}
   <a href="{{ member.url.github }}" target="_blank"><i class="fa-brands fa-github"></i></a> &nbsp;
   {%- endif -%}
-  {% if member.url.linkedin != nil %}
+  {% if member.url.linkedin != nil and member.url.linkedin != "" %}
   <a href="{{ member.url.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin"></i></a> &nbsp;
   {%- endif -%}
-  <!-- <ul style="overflow: hidden">
-  </ul> -->
-  
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
-
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
 {% endfor %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
