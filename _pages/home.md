@@ -2,7 +2,7 @@
 title: "UT IIS Lab - Home"
 layout: homelay
 excerpt: "UT IIS Lab"
-sitemap: false
+sitemap: true
 permalink: /
 ---
 

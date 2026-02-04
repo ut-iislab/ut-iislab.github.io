@@ -2,7 +2,7 @@
 title: "UT IIS Lab - Publications"
 layout: gridlay
 excerpt: "UT IIS Lab -- Publications."
-sitemap: false
+sitemap: true
 permalink: /publications/
 ---
 

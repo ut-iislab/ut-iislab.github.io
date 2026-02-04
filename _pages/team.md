@@ -2,7 +2,7 @@
 title: "UT IIS - Team"
 layout: gridlay
 excerpt: "UT IIS: Team members"
-sitemap: false
+sitemap: true
 permalink: /team/
 ---
 

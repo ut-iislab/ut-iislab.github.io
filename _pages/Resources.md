@@ -2,7 +2,7 @@
 title: "Resources"
 layout: textlay
 excerpt: "UT IIS Lab -- Resources"
-sitemap: false
+sitemap: true
 permalink: /resources/
 ---
 
