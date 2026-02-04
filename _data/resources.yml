@@ -29,7 +29,7 @@ datasets:
     dataset: https://zenodo.org/records/14671773
     
   - name: PersianMedQA
-    title: "Language-Centric Evaluation of LLMs in the Persian Medical Domain"
+    title: "Evaluating Large Language Models on a Persian-English Bilingual Medical Question Answering Benchmark"
     description: "Comprehensive evaluation dataset for assessing LLM performance in Persian medical domain, with parallel English translations."
     year: 2025
     paper: https://arxiv.org/abs/2506.00250

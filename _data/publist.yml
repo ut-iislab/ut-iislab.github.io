@@ -24,7 +24,7 @@
     url: https://arxiv.org/abs/2506.07606
     code:  
 
-- title: "PersianMedQA: Language-Centric Evaluation of LLMs in the Persian Medical Domain"
+- title: "PersianMedQA: Evaluating Large Language Models on a Persian-English Bilingual Medical Question Answering Benchmark"
   year: 2025
   authors: M.J. Ranjbar Kalahroodi, A. Sheikholselami, S. Karimi, S.R. Kalahroodi, H. Faili, A. Shakery
   venue: arXiv preprint arXiv:2506.00250
