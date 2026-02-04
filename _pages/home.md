@@ -1,27 +1,30 @@
 ---
-title: "UTS NLP - Home"
+title: "UT IIS Lab - Home"
 layout: homelay
-excerpt: "UTS NLP"
+excerpt: "UT IIS Lab"
 sitemap: false
 permalink: /
 ---
 
 <div>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uts2_cut.jpeg" alt="UTS picture" class="home_top_img"> 
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ut_banner.jpeg" alt="University of Tehran" class="home_top_img"> 
 </div>
 
-The [University of Technology Sydney](https://www.uts.edu.au/){:target="_blank"} Natural Language Processing (**UTS NLP**) group is engaged in research within the field of natural language processing, with a primary aim of advancing language understanding and reasoning. 
-We create innovative algorithms and devise fresh frameworks to address complex challenges in NLP, leveraging techniques such as deep learning and reinforcement learning. 
+The [University of Tehran](https://ut.ac.ir/en){:target="_blank"} Intelligent Information Systems (**IIS Lab**) is engaged in research within the fields of natural language processing, information retrieval, and machine learning, with a primary aim of advancing language understanding and information access technologies.
 
-Our mission is to push the frontiers of artificial intelligence, simultaneously facilitating significant advancements in practical text processing applications with wide-ranging implications for real-world issues. 
-Recently, our endeavors have concentrated on areas such as question answering, dialogue systems, language grounding, knowledge representation, reasoning, and the development of algorithms for learning from limited supervision.
+Led by Associate Professor Azadeh Shakery, we create innovative algorithms and devise fresh frameworks to address complex challenges in text information management, leveraging techniques such as deep learning, learning to rank, and statistical language modeling.
 
+Our mission is to push the frontiers of artificial intelligence and information retrieval, simultaneously facilitating significant advancements in practical applications with wide-ranging implications for real-world problems in Persian and multilingual contexts.
 
- **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team (see [Vacancies](vacancies)) !**
-
+Our research encompasses diverse areas including:
+- Information retrieval and search systems
+- Natural language processing for Persian and low-resource languages
+- Cross-lingual information access
+- Question answering and conversational AI
+- Text mining and social media analysis
+- Learning to rank and neural ranking models
+- Speech processing and text-to-speech synthesis
 
 <div class="home_imgs_div">
-  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uts1.jpg" alt="UTS picture" class="home_imgs"> -->
-  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uts2.jpeg" alt="UTS picture" class="home_imgs"> -->
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uts_logo_v2.png" alt="UTS picture" class="home_imgs">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ut_logo.png" alt="University of Tehran Logo" class="home_imgs">
 </div>
