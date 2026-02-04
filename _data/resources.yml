@@ -1,0 +1,50 @@
+datasets:
+  - name: ParsVoice
+    title: "A Large-Scale Multi-Speaker Persian Speech Corpus for Text-to-Speech Synthesis"
+    description: "The largest Persian speech corpus designed specifically for TTS applications, featuring 1,804 hours of high-quality speech from 470+ speakers."
+    year: 2024
+    paper: https://arxiv.org/abs/2510.10774
+    dataset: https://huggingface.co/datasets/MohammadJRanjbar/ParsVoice
+    demo: https://mohammadjranjbar.github.io/ParsVoice/
+    
+  - name: PersianPunc
+    title: "A Corpus for Persian Punctuation Restoration"
+    description: "A comprehensive dataset for Persian punctuation restoration, enabling models to accurately restore punctuation marks in unpunctuated Persian text."
+    year: 2025
+    paper: "Accepted at SilkRoad NLP Workshop @ EACL 2025"
+    dataset: https://huggingface.co/datasets/MohammadJRanjbar/PersianPunc
+    
+  - name: PerCul
+    title: "A Story-Driven Cultural Evaluation of LLMs in Persian"
+    description: "Dataset designed to assess cultural sensitivity of LLMs toward Persian culture through story-based, multiple-choice questions."
+    year: 2025
+    paper: https://aclanthology.org/2025.naacl-long.702/
+    dataset: https://huggingface.co/datasets/teias-ai/percul
+    
+  - name: PolitiSky24
+    title: "U.S. Political Bluesky Dataset with User Stance Labels"
+    description: "First-of-its-kind dataset for stance detection on Bluesky, focused on the 2024 U.S. presidential election. Contains 16,044 user-target stance pairs with detailed metadata."
+    year: 2025
+    paper: https://arxiv.org/abs/2506.07606
+    dataset: https://zenodo.org/records/14671773
+    
+  - name: PersianMedQA
+    title: "Language-Centric Evaluation of LLMs in the Persian Medical Domain"
+    description: "Comprehensive evaluation dataset for assessing LLM performance in Persian medical domain, with parallel English translations."
+    year: 2025
+    paper: https://arxiv.org/abs/2506.00250
+    dataset: https://huggingface.co/datasets/MohammadJRanjbar/PersianMedQA
+    
+  - name: Persian Offensive Language Dataset
+    title: "Hate Speech and Offensive Language Detection"
+    description: "Dataset of 38K Persian tweets containing hate and offensive language, manually annotated with bias measurement metrics."
+    year: 2024
+    paper: https://link.springer.com/article/10.1007/s10994-023-06370-5
+
+models:
+  - name: ARMAN
+    title: "Pre-trained Model for Persian Abstractive Summarization"
+    description: "Transformer-based encoder-decoder model achieving state-of-the-art performance on Persian summarization tasks."
+    year: 2021
+    paper: https://aclanthology.org/2021.emnlp-main.741/
+    code: https://github.com/alirezasalemi7/ARMAN
