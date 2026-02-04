@@ -1,31 +1,153 @@
+- name: Vahid Rahimzadeh
+  photo: VahidR.jpg
+  duration: 2022-2025
+  current_position: PhD student, TU Delft
+  info: Research in NLP, computational social science, and user behavior modeling. Co-supervised by Masoud Asadpour.
+  url:
+    personal_site: https://vavre.github.io/
+    google_scholar: https://scholar.google.com/citations?user=CTiPTggAAAAJ
+    github: https://github.com/vavre
+    linkedin: https://www.linkedin.com/in/vavre/
+
 - name: Mohammad Javad Ranjbar
   photo: MohammadJRanjbar.jpeg
-  duration: (2022-2025)
-  cosupervision: Heshaam Faili
-  info: Researcher in conversational AI, speech synthesis, and NLP.
+  duration: 2022-2025
+  current_position: 
+  info: Research in speech synthesis and NLP. Co-supervised by Heshaam Faili.
   url:
     personal_site: https://mohammadjranjbar.github.io/
-    google_scholar: https://scholar.google.com/citations?user=xE5G7NIAAAAJ&hl=en
+    google_scholar: https://scholar.google.com/citations?user=xE5G7NIAAAAJ
     github: https://github.com/mohammadJRanjbar
     linkedin: https://www.linkedin.com/in/mohammadj/
 
-- name: Vahid Rahimzadeh
-  photo: VahidR.jpg
-  duration: (2022-2025)
-  cosupervision: Masoud Asadpour
-  info: PhD student in Artificial Intelligence at TU Delft; completed M.Sc. in Information Technology Engineering at University of Tehran.
+- name: Shahla Daneshi
+  photo: shahla_daneshi.jpeg
+  duration: 2022-2023
+  current_position: AI Engineer, RunSensible
+  info: Research in NLP, LLMs, and legal AI systems. Developed text-to-SQL systems, RAG-based search, and conversational AI. Teaching Assistant for NLP and Neural Networks courses.
   url:
-    personal_site: https://vavre.github.io/
-    google_scholar: https://scholar.google.com/citations?user=CTiPTggAAAAJ&hl=en
-    linkedin: https://www.linkedin.com/in/vavre/
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin: https://www.linkedin.com/in/shahla-daneshi/
+
+- name: MohammadJavad Kamyab
+  photo: mohammadjavad_kamyab.jpeg
+  duration: 2021-2024
+  current_position: Mid-level Data Analyst, Paeezan Studio
+  info: Research in Conversational Recommender Systems using LLMs. Specializes in game metrics analysis, neural networks, and NLP. Teaching Assistant for Intelligent Information Retrieval.
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin: https://www.linkedin.com/in/mohammadjavad-kamyab/
+
+- name: Mahsan Akbari Amin
+  photo: mahsan_akbari.jpeg
+  duration: 2020-2023
+  current_position: AI Engineer, TOSAN TECHNO
+  info: Research in misogyny detection in social networks. Specializes in NLP, RAG, LLM solutions, chatbot development, and speech processing. Teaching Assistant for Data Mining and Intelligent Information Retrieval.
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin: https://www.linkedin.com/in/mahsan-akbari-amin/
+
+- name: Mohammad Sadegh Sadeghi
+  photo: sadegh_sadeghi.jpeg
+  duration: 2021-2025
+  current_position: AI Engineer, Mofid Securities
+  info: Research in conversational AI and LLM-powered recommender systems.
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin: https://www.linkedin.com/in/mohammad-sadegh-sadeghi/
+
+- name: Mohammad Javad Momeni
+  photo: javad_momeni.jpeg
+  duration: 2020-2023
+  current_position: NLP Engineer, ModAI app and RamonAI
+  info: Research in deep learning and NLP.
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin: https://www.linkedin.com/in/mohammad-javad-momeni/
 
 - name: Emad Kebriaei
   photo: emad_kebriaei.jpeg
-  duration: 2024
-  cosupervision:
-  topic: Persian Natural Language Processing and Text Summarization
+  duration: 2017-2023
+  current_position: 
+  info: Research in Persian NLP, offensive language detection, and abstractive summarization.
   url:
     personal_site: 
     google_scholar: 
     github: 
     linkedin: https://www.linkedin.com/in/emadkebriaei1992
+
+- name: Ayyoob Imani
+  photo: ayyoob_imani.jpg
+  duration: 2016-2018
+  current_position: Senior Applied Scientist, Microsoft Germany
+  info: Completed PhD at LMU Munich. Research focuses on multilingual NLP, parameter efficiency, and model interpretability for large language models.
+  url:
+    personal_site: https://ayyoobimani.github.io/
+    google_scholar: https://scholar.google.com/citations?user=QoXULu8AAAAJ
+    github: https://github.com/ayyoobimani
+    linkedin: https://www.linkedin.com/in/ayyoob-imani/
+
+- name: Mostafa Dehghani
+  photo: mostafa_dehghani.jpg
+  duration: 2012-2016
+  current_position: Research Scientist, Google DeepMind
+  info: Key contributor to Vision Transformers and Gemini models. Research focuses on efficient transformers, multimodal learning, and large-scale machine learning.
+  url:
+    personal_site: http://mostafadehghani.com/
+    google_scholar: https://scholar.google.com/citations?user=94waFbcAAAAJ
+    github: 
+    linkedin:
+
+- name: Samira Abnar
+  photo: samira_abnar.jpg
+  duration: 2011-2015
+  current_position: Machine Learning Researcher, Apple
+  info: Completed PhD at University of Amsterdam. Research focuses on generative modeling, attention mechanisms, and compositional generalization in deep learning.
+  url:
+    personal_site: https://samiraabnar.github.io/
+    google_scholar: 
+    github: https://github.com/samiraabnar
+    linkedin: https://www.linkedin.com/in/samira-abnar/
+
+- name: Hamed Zamani
+  photo: hamed_zamani.jpg
+  duration: 2011-2016
+  current_position: Associate Professor, University of Massachusetts Amherst
+  info: Associate Director of the Center for Intelligent Information Retrieval (CIIR). Research focuses on neural information retrieval, conversational search, and retrieval-enhanced machine learning.
+  url:
+    personal_site: https://people.cs.umass.edu/~zamani/
+    google_scholar: https://scholar.google.com/citations?user=5dobt1EAAAAJ
+    github: 
+    linkedin:
+
+- name: Homa B. Hashemi
+  photo: homa_hashemi.jpg
+  duration: 2008-2011
+  current_position: Applied Scientist, Microsoft
+  info: Completed PhD at University of Pittsburgh. Research focuses on robust parsing for ungrammatical sentences and cross-language information retrieval.
+  url:
+    personal_site: http://www.cs.pitt.edu/~hashemi/
+    google_scholar: https://scholar.google.com/citations?user=XXXXXXXXX
+    github: 
+    linkedin:
+
+- name: Javid Dadashkarimi
+  photo: javid_dadashkarimi.jpeg
+  duration: 2008-2015
+  current_position: Postdoctoral Researcher, University of Pennsylvania
+  info: Research in AI for medical imaging, neuroimaging, and deep learning for fetal brain segmentation. Previously at Yale University and Harvard Medical School.
+  url:
+    personal_site: https://dadashkarimi.github.io/
+    google_scholar: 
+    github: https://github.com/dadashkarimi
+    linkedin: https://www.linkedin.com/in/javid-dadashkarimi/
