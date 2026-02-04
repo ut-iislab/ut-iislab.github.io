@@ -1,7 +1,7 @@
 ---
-title: "UTS NLP - Team"
+title: "UT IIS - Team"
 layout: gridlay
-excerpt: "UTS NLP: Team members"
+excerpt: "UT IIS: Team members"
 sitemap: false
 permalink: /team/
 ---

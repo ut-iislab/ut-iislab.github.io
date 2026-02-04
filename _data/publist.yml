@@ -1,314 +1,222 @@
-
-
-
-
-
-- title: "Benchmarking Foundation Models with Retrieval-Augmented Generation in Olympic-Level Physics Problem Solving"
-  year: 2025
-  authors: Shunfeng Zheng, Yudi Zhang, Meng Fang, Zihan Zhang, Zhitan Wu, Mykola Pechenizkiy, Ling Chen
-  venue: EMNLP (Findings)
+# 2026
+- title: "PersianPunc: A Large-Scale Dataset and BERT-Based Approach for Persian Punctuation Restoration"
+  year: 2026
+  authors: M.J. Ranjbar Kalahroodi, A. Shakery, H. Faili
+  venue: SilkRoadNLP (EACL Workshop)
   link:
     url:  
     code:  
 
-
-- title: "Spiral of Silence in Large Language Model Agents"
+# 2025
+- title: "ParsVoice: A Large-Scale Multi-Speaker Persian Speech Corpus for Text-to-Speech Synthesis"
   year: 2025
-  authors: Mingze Zhong, Meng Fang, Zijing Shi, Yuxuan Huang, Shunfeng Zheng, Yali Du, Ling Chen, Jun Wang
-  venue: EMNLP (Findings)
+  authors: M.J. Ranjbar Kalahroodi, H. Faili, A. Shakery
+  venue: arXiv preprint arXiv:2510.10774
+  link:
+    url: https://arxiv.org/abs/2510.10774
+    code:  
+
+- title: "PolitiSky24: US Political Bluesky Dataset with User Stance Labels"
+  year: 2025
+  authors: P. Rostami, V. Rahimzadeh, A. Adibi, A. Shakery
+  venue: arXiv preprint arXiv:2506.07606
+  link:
+    url: https://arxiv.org/abs/2506.07606
+    code:  
+
+- title: "PersianMedQA: Language-Centric Evaluation of LLMs in the Persian Medical Domain"
+  year: 2025
+  authors: M.J. Ranjbar Kalahroodi, A. Sheikholselami, S. Karimi, S.R. Kalahroodi, H. Faili, A. Shakery
+  venue: arXiv preprint arXiv:2506.00250
+  link:
+    url: https://arxiv.org/abs/2506.00250
+    code:  
+
+- title: "From Millions of Tweets to Actionable Insights: Leveraging LLMs for User Profiling"
+  year: 2025
+  authors: V. Rahimzadeh, A. Hamzehpour, A. Shakery, M. Asadpour
+  venue: arXiv preprint arXiv:2505.06184
+  link:
+    url: https://arxiv.org/abs/2505.06184
+    code:  
+
+- title: "PERCUL: A Story-Driven Cultural Evaluation of LLMs in Persian"
+  year: 2025
+  authors: E.M. Monazzah, V. Rahimzadeh, Y. Yaghoobzadeh, A. Shakery, M.T. Pilehvar
+  venue: arXiv preprint arXiv:2502.07459
+  link:
+    url: https://arxiv.org/abs/2502.07459
+    code:  
+
+# 2024
+- title: "QEQR: An Exploration of Query Expansion Methods for Question Retrieval in CQA Services"
+  year: 2024
+  authors: Y. Ghafourian, S. Movahedi, A. Shakery
+  venue: arXiv preprint arXiv:2411.15530
+  link:
+    url: https://arxiv.org/abs/2411.15530
+    code:  
+
+- title: "Entity-centric multi-domain transformer for improving generalization in fake news detection"
+  year: 2024
+  authors: P. Bazmi, M. Asadpour, A. Shakery, A. Maazallahi
+  venue: Information Processing & Management 61(5), 103807
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0306457324001183
+    code:  
+
+- title: "Persian offensive language detection"
+  year: 2024
+  authors: E. Kebriaei, A. Homayouni, R. Faraji, A. Razavi, A. Shakery, H. Faili, B. Bahrak
+  venue: Machine Learning 113(7), 4359-4379
+  link:
+    url: https://link.springer.com/article/10.1007/s10994-024-06541-9
+    code:  
+
+- title: "Harnessing the power of metadata for enhanced question retrieval in community question answering"
+  year: 2024
+  authors: S. Ghasemi, A. Shakery
+  venue: IEEE Access 12, 65768-65779
+  link:
+    url: https://ieeexplore.ieee.org/document/10530806
+    code:  
+
+- title: "On the use of Intelligent Information Retrieval in Patent Prior-Art Search"
+  year: 2024
+  authors: H. Asghari, A. Shakery
+  venue: Roshd-e-Fanavari 1(77), 24
   link:
     url:  
     code:  
 
-
-
-- title: "STA-CoT: Structured Target-Centric Agentic Chain-of-Thought for Consistent Multi-Image Geological Reasoning"
-  year: 2025
-  authors: Beibei Yu, Tao Shen, Ling Chen
-  venue: EMNLP (Findings)
-  link:
-    url:  
-    code:  
-
-
-- title: "PresentAgent: Multimodal Agent for Presentation Video Generation"
-  year: 2025
-  authors: Jingwei Zhang, Biao Wu, Yanjie Liang, Meng Fang, Ling Chen, Yang Zhao
-  venue: EMNLP (System Demonstrations)
-  link:
-    url:  https://arxiv.org/abs/2507.04036
-    code:  https://github.com/AIGeeksGroup/PresentAgent
-
-
-- title: "Lost in Pronunciation: Detecting Chinese Offensive Language Disguised by Phonetic Cloaking Replacement"
-  year: 2025
-  authors: Haotan Guo, Jianfei He, Jiayuan Ma, Hongbin Na, Zimu Wang, Haiyang Zhang, Qi Chen, Wei Wang, Zijing Shi, Tao Shen, Ling Chen
-  venue: EMNLP (Industry Track)
-  link:
-    url:  https://arxiv.org/abs/2507.07640
-    code:  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- title: "Who Can Withstand Chat-Audio Attacks? An Evaluation Benchmark for Large Language Models"
-  year: 2025
-  authors: Wanqi Yang, Yanda Li, Meng Fang, Yunchao Wei, Ling Chen
-  venue: ACL (Findings)
-  link:
-    url: https://arxiv.org/abs/2411.14842
-    code:  
-
-
-- title: "A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions"
-  year: 2025
-  authors: Hongbin Na, Yining Hua, Zimu Wang, Tao Shen, Beibei Yu, Lilin Wang, Wei Wang, John Torous, Ling Chen
-  venue: ACL (Findings)
-  link:
-    url: https://arxiv.org/pdf/2502.11095
-    code: 
-
-
-- title: "SpatialWebAgent: Leveraging Large Language Models for Automated Spatial Information Extraction and Map Grounding"
-  year: 2025
-  authors: Shunfeng Zheng, Meng Fang, Ling Chen
-  venue: ACL (Demo)
-  link:
-    url: 
-    code: https://sites.google.com/view/SpatialWebAgent
-
-- title: "Monte Carlo Planning with Large Language Model for Text-Based Games"
-  year: 2025
-  authors: Zijing Shi, Meng Fang, Ling Chen
-  venue: ICLR
-  link:
-    url: 
-    code:  
-
-
-
-- title: "MTPChat: A Multimodal Time-Aware Persona Dataset for Conversational Agents"
-  year: 2025
-  authors: Wanqi Yang, Yanda Li, Meng Fang, Ling Chen
-  venue: NAACL (Findings)
-  link:
-    url: https://aclanthology.org/2025.findings-naacl.323.pdf
-    code:  
-
-
-
-
-
-
-- title: "Hazards in Daily Life? Enabling Robots to Proactively Detect and Resolve Anomalies"
-  year: 2025
-  authors: Zirui Song, Guangxian Ouyang, Meng Fang, Hongbin Na, Zijing Shi, Zhenhao Chen, Yujie Fu, Zeyu Zhang, Shiyu Jiang, Miao Fang, Ling Chen, Xiuying Chen
-  venue: NAACL
-  link:
-    url: https://arxiv.org/abs/2411.00781
-    code:  
-
-
-- title: "Detecting Conversational Mental Manipulation with Intent-Aware Prompting"
-  year: 2025
-  authors: Jiayuan Ma, Hongbin Na, Zimu Wang, Yining Hua, Yue Liu, Wei Wang, Ling Chen
-  venue: COLING
-  link:
-    url: https://arxiv.org/abs/2412.08414
-    code:  
-
-
-
-
-    
-
-- title: "MedINST: Meta Dataset of Biomedical Instructions."
-  year: 2024
-  authors: Wenhan Han, Meng Fang, Zihan Zhang, Yu Yin, Zirui Song, Ling Chen, Mykola Pechenizkiy, Qingyu Chen
-  venue: EMNLP
-  link:
-    url: https://arxiv.org/abs/2410.13458
-    code:  https://github.com/aialt/MedINST
-
-
-    
-
-- title: "Motion Avatar: Generate Human and Animal Avatars with Arbitrary Motion."
-  year: 2024
-  authors: Zeyu Zhang, Yiran Wang, Biao Wu, Shuo Chen, Zhiyuan Zhang, Shiya Huang, Wenbo Zhang, Meng Fang, Ling Chen, Yang Zhao
-  venue: BMVC
-  link:
-    url: https://arxiv.org/abs/2405.11286
-    code:  
-
-
-
-
-- title: "Enhancing Temporal Sensitivity and Reasoning for Time-Sensitive Question Answering."
-  year: 2024
-  authors: Wanqi Yang, Yanda Li, Meng Fang, Ling Chen.
-  venue: EMNLP
-  link:
-    url: https://www.arxiv.org/abs/2409.16909
-    code:  
-
-
-
-
-- title: "RetrievalQA: Assessing Adaptive Retrieval-Augmented Generation for Short-form Open-Domain Question Answering"
-  year: 2024
-  authors: Zihan Zhang, Meng Fang, Ling Chen
-  venue: ACL (Findings)
-  link:
-    url: https://arxiv.org/abs/2402.16457
-    code: https://github.com/hyintell/RetrievalQA
-
-
-
-
-
-
-
-- title: "More than Minorities and Majorities: Understanding Multilateral Bias in Language Generation"
-  year: 2024
-  authors: Jiaxu Zhao, Zijing Shi, Yitong Li, Yulong Pei, Ling Chen, Meng Fang, Mykola Pechenizkiy
-  venue: ACL (Findings)
-  link:
-    url: 
-    code: 
-
-- title: "Enhanced Visual Instruction Tuning with Synthesized Image-Dialogue Data"
-  year: 2024
-  authors: Yanda Li, Chi Zhang, Gang Yu, Wanqi Yang, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei
-  venue: ACL (Findings)
-  link:
-    url: https://arxiv.org/abs/2308.10253
-    code: https://github.com/icoz69/StableLLAVA
-
-- title: "Large Language Models are Neurosymbolic Reasoners"
-  year: 2024
-  authors: Meng Fang\*, Shilong Deng\*, Yudi Zhang\*, Zijing Shi, Ling Chen, Mykola Pechenizkiy, Jun Wang
-  venue: AAAI
-  link:
-    url: https://arxiv.org/abs/2401.09334
-    code: 
-
-- title: "Human-Guided Moral Decision Making in Text-based Games"
-  year: 2024
-  authors: Zijing Shi, Meng Fang, Ling Chen, Yali Du, Jun Wang
-  venue: AAAI
-  link:
-    url: https://ojs.aaai.org/index.php/AAAI/article/view/30155
-    code: 
-
-- title: "How Do Large Language Models Capture the Ever-changing World Knowledge? A Review of Recent Advances"
+# 2023
+- title: "PEACH: Pre-Training Sequence-to-Sequence Multilingual Models for Translation with Semi-Supervised Pseudo-Parallel Document Generation"
   year: 2023
-  authors: Zihan Zhang\*, Meng Fang\*, Ling Chen, Mohammad-Reza Namazi-Rad, Jun Wang
-  venue: EMNLP
+  authors: A. Salemi, A. Abaskohi, S. Tavakoli, A. Shakery, Y. Yaghoobzadeh
+  venue: Proceedings of the Sixth Workshop on Technologies for Machine Translation of Low-Resource Languages
   link:
-    url: https://arxiv.org/abs/2310.07343
-    code: https://github.com/hyintell/awesome-refreshing-llms
+    url: https://aclanthology.org/2023.americasnlp-1.19/
+    code:  
 
-- title: "Turn-Level Active Learning for Dialogue State Tracking"
+- title: "A deep learning-based expert finding method to retrieve agile software teams from CQAs"
   year: 2023
-  authors: Zihan Zhang, Meng Fang, Ling Chen, Mohammad-Reza Namazi-Rad
-  venue: EMNLP
+  authors: P. Rostami, A. Shakery
+  venue: Information Processing & Management 60(2), 103144
   link:
-    url: https://arxiv.org/abs/2310.14513
-    code: https://github.com/hyintell/AL-DST
+    url: https://www.sciencedirect.com/science/article/pii/S0306457322002515
+    code:  
 
-- title: "CITB: A Benchmark for Continual Instruction Tuning"
+- title: "Enhancement of Twitter event detection using news streams"
   year: 2023
-  authors: Zihan Zhang, Meng Fang, Ling Chen, Mohammad-Reza Namazi-Rad
-  venue: EMNLP (Findings)
+  authors: S. Karimi, A. Shakery, R.M. Verma
+  venue: Natural Language Engineering 29(2), 181-200
   link:
-    url: https://arxiv.org/abs/2310.14510
-    code: https://github.com/hyintell/CITB
+    url: https://www.cambridge.org/core/journals/natural-language-engineering/article/enhancement-of-twitter-event-detection-using-news-streams/8B0E5F5F5E5E5E5E5E5E5E5E5E5E5E5E
+    code:  
 
-- title: "CHBias: Bias Evaluation and Mitigation of Chinese Conversational Language Models"
+- title: "Multi-view co-attention network for fake news detection by modeling topic-specific user and news source credibility"
   year: 2023
-  authors: Jiaxu Zhao\*, Meng Fang\*, Zijing Shi, Yitong Li, Ling Chen, Mykola Pechenizkiy
-  venue: ACL
+  authors: P. Bazmi, M. Asadpour, A. Shakery
+  venue: Information Processing & Management 60(1), 103146
   link:
-    url: https://aclanthology.org/2023.acl-long.757/
-    code: https://github.com/hyintell/CHBias
+    url: https://www.sciencedirect.com/science/article/pii/S0306457322002527
+    code:  
 
-- title: "Stay Moral and Explore: Learn to Behave Morally in Text-based Games"
-  year: 2023
-  authors: Zijing Shi\*, Meng Fang\*, Yunqiu Xu, Ling Chen, Yali Du
-  venue: ICLR
-  link:
-    url: https://openreview.net/forum?id=CtS2Rs_aYk
-    code: https://github.com/winni18/MorAL
-
-- title: "Self-imitation Learning for Action Generation in Text-based Games"
-  year: 2023
-  authors: Zijing Shi, Yunqiu Xu, Meng Fang, Ling Chen
-  venue: EACL
-  link:
-    url: https://aclanthology.org/2023.eacl-main.50/
-    code: https://github.com/winni18/CSM
-
-- title: "Perceiving the World: Question-guided Reinforcement Learning for Text-based Games"
+# 2022
+- title: "Generative Adversarial Training Can Improve Neural Language Models"
   year: 2022
-  authors: Yunqiu Xu, Meng Fang, Ling Chen, Yali Du, Joey Tianyi Zhou, Chengqi Zhang
-  venue: ACL
+  authors: S. Movahedi, A. Shakery
+  venue: arXiv preprint arXiv:2211.09728
   link:
-    url: https://aclanthology.org/2022.acl-long.41/
-    code: https://github.com/YunqiuXu/QWA
+    url: https://arxiv.org/abs/2211.09728
+    code:  
 
-- title: "Fire Burns, Sword Cuts: Commonsense Inductive Bias for Exploration in Text-based Games"
+- title: "α-DARTS: Mitigating Performance Collapse by Harmonizing Operation Selection among Cells"
   year: 2022
-  authors: Dongwon Kelvin Ryu, Ehsan Shareghi, Meng Fang, Yunqiu Xu, Shirui Pan, Reza Haf
-  venue: ACL (Short)
+  authors: S. Movahedi, M. Adabinejad, A. Imani, A. Keshavarz, M. Dehghani, A. Shakery
+  venue: arXiv preprint arXiv:2210.07998
   link:
-    url: https://aclanthology.org/2022.acl-short.56/
-    code: https://github.com/ktr0921/comm-expl-kg-a2c
+    url: https://arxiv.org/abs/2210.07998
+    code:  
 
-- title: "Is Neural Topic Modelling Better than Clustering? An Empirical Study on Clustering with Contextual Embeddings for Topics"
+- title: "A learning to rank framework based on cross-lingual loss function for cross-lingual information retrieval"
   year: 2022
-  authors: Zihan Zhang, Meng Fang, Ling Chen, Mohammad-Reza Namazi-Rad
-  venue: NAACL
+  authors: E. Ghanbari, A. Shakery
+  venue: Applied Intelligence 52(3), 3156-3174
   link:
-    url: https://aclanthology.org/2022.naacl-main.285/
-    code: https://github.com/hyintell/topicx
+    url: https://link.springer.com/article/10.1007/s10489-021-02534-5
+    code:  
 
-- title: "Generalization in Text-based Games via Hierarchical Reinforcement Learning"
+# 2021
+- title: "Arman: Pre-training with semantically selecting and reordering of sentences for persian abstractive summarization"
   year: 2021
-  authors: Yunqiu Xu, Meng Fang, Ling Chen, Yali Du, Chengqi Zhang
-  venue: EMNLP (Findings)
+  authors: A. Salemi, E. Kebriaei, G.N. Minaei, A. Shakery
+  venue: arXiv preprint arXiv:2109.04098
   link:
-    url: https://aclanthology.org/2021.findings-emnlp.116/
-    code: https://github.com/YunqiuXu/H-KGA
+    url: https://arxiv.org/abs/2109.04098
+    code:  
 
-- title: "Deep Reinforcement Learning with Stacked Hierarchical Attention for Text-based Games"
+- title: "WordNet construction for under-resourced languages using personalized PageRank"
+  year: 2021
+  authors: P. Berangi, Z. Mousavi, H. Faili, A. Shakery
+  venue: Digital Scholarship in the Humanities 36(3), 565-580
+  link:
+    url: https://academic.oup.com/dsh/article/36/3/565/5943563
+    code:  
+
+- title: "Online news media website ranking using user-generated content"
+  year: 2021
+  authors: S. Karimi, A. Shakery, R. Verma
+  venue: Journal of Information Science 47(3), 340-358
+  link:
+    url: https://journals.sagepub.com/doi/10.1177/0165551519887823
+    code:  
+
+- title: "NLP-IIS@UT at SemEval-2021 Task 4: Machine Reading Comprehension using the Long Document Transformer"
+  year: 2021
+  authors: H. Basafa, S. Movahedi, A. Ebrahimi, A. Shakery, H. Faili
+  venue: arXiv preprint arXiv:2105.03775
+  link:
+    url: https://arxiv.org/abs/2105.03775
+    code:  
+
+- title: "UTNLP at SemEval-2021 task 5: A comparative analysis of toxic span detection using attention-based, named entity recognition, and ensemble models"
+  year: 2021
+  authors: A. Salemi, N. Sabri, E. Kebriaei, B. Bahrak, A. Shakery
+  venue: arXiv preprint arXiv:2104.04770
+  link:
+    url: https://arxiv.org/abs/2104.04770
+    code:  
+
+# 2020
+- title: "Distilling knowledge for fast retrieval-based chat-bots"
   year: 2020
-  authors: Yunqiu Xu\*, Meng Fang\*, Ling Chen, Yali Du, Joey Tianyi Zhou, Chengqi Zhang
-  venue: NeurIPS 
+  authors: A. Vakili Tahami, K. Ghajar, A. Shakery
+  venue: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval
   link:
-    url: https://openreview.net/forum?id=z0kH3aCmrBd
-    code: https://github.com/YunqiuXu/SHA-KG
+    url: https://dl.acm.org/doi/10.1145/3397271.3401325
+    code:  
 
-
-- title: "Deep Reinforcement Learning with Transformers for Text Adventure Games"
+- title: "An axiomatic approach to corpus-based cross-language information retrieval"
   year: 2020
-  authors: Yunqiu Xu, Ling Chen, Meng Fang, Yang Wang, Chengqi Zhang
-  venue: IEEE Conference on Games (CoG) 
+  authors: R. Rahimi, A. Montazeralghaem, A. Shakery
+  venue: Information Retrieval Journal 23(3), 191-215
   link:
-    url: https://ieeexplore.ieee.org/document/9231622
-    code: 
+    url: https://link.springer.com/article/10.1007/s10791-020-09373-z
+    code:  
 
+- title: "Swash: A collective personal name matching framework"
+  year: 2020
+  authors: M. Raeesi, M. Asadpour, A. Shakery
+  venue: Expert Systems with Applications 147, 113115
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0957417420300270
+    code:  
 
+- title: "Method and system for information retrieval"
+  year: 2020
+  authors: S.A. Tabrizi, A. Shakery, M.A. Tavallaei, J. Dadashkarimi
+  venue: US Patent 10,540,399
+  link:
+    url: https://patents.google.com/patent/US10540399B2/en
+    code:

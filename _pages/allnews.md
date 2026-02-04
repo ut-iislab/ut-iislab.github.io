@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "UTS NLP"
+excerpt: "UT IIS"
 sitemap: false
 permalink: /allnews.html
 ---

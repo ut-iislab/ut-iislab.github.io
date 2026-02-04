@@ -1,7 +1,7 @@
 ---
-title: "UTS NLP - Research"
+title: "UT IIS - Research"
 layout: textlay
-excerpt: "UTS NLP -- Research"
+excerpt: "UT IIS -- Research"
 sitemap: false
 permalink: /research/
 ---

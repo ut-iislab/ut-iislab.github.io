@@ -7,7 +7,7 @@ permalink: /
 ---
 
 <div>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ut_banner.jpeg" alt="University of Tehran" class="home_top_img"> 
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ut_banner.webp" alt="University of Tehran" class="home_top_img"> 
 </div>
 
 The [University of Tehran](https://ut.ac.ir/en){:target="_blank"} Intelligent Information Systems (**IIS Lab**) is engaged in research within the fields of natural language processing, information retrieval, and machine learning, with a primary aim of advancing language understanding and information access technologies.

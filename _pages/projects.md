@@ -1,5 +1,5 @@
 ---
-title: "UTS NLP - Projects"
+title: "UT IIS - Projects"
 layout: textlay
 excerpt: "Projects"
 sitemap: false
