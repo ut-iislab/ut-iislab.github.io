@@ -26,5 +26,8 @@ Our research encompasses diverse areas including:
 - Speech processing and text-to-speech synthesis
 
 <div class="home_imgs_div">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ut_logo.png" alt="University of Tehran Logo" class="home_imgs">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ut_logo.png" 
+       alt="University of Tehran Logo" 
+       class="home_imgs"
+       style="width: 300px; height: auto;">
 </div>
