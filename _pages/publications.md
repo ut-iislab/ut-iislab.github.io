@@ -166,4 +166,4 @@ For a complete list of publications, please visit [Google Scholar](https://schol
 
 ## Earlier Publications
 
-For publications from 2019 and earlier, please visit our [Google Scholar page](https://scholar.google.com/citations?user=SCHOLAR_ID&hl=en){:target="_blank"}.
+For publications from 2019 and earlier, please visit our [Google Scholar page](https://scholar.google.com/citations?user=E-QpN74AAAAJ&hl=en){:target="_blank"}.

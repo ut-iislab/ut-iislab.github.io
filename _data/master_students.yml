@@ -1,53 +1,87 @@
-- name: Shunfeng Zheng
-  photo: shunfeng.jpg
+# Master's Students (2023 to Present)
+
+- name: Parmis Bathayan
+  photo: parmis_bathayan.jpg
   duration: 2023
   cosupervision:
-  topic: Large Language Models for Spatial and Mathematics Reasoning
+  topic: 
   info:
   url:
     personal_site: 
     google_scholar: 
     github: 
-    linkedin: 
+    linkedin:
 
-- name: Hongbin Na
-  photo: hongbin.jpg
+- name: Sina Kargaran
+  photo: sina_kargaran.jpg
+  duration: 2023
+  cosupervision:
+  topic: 
+  info:
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin:
+
+- name: Amirhossein Roshandel
+  photo: amirhossein_roshandel.jpg
+  duration: 2023
+  cosupervision:
+  topic: 
+  info:
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin:
+
+# Master's Students (2024 to Present)
+
+- name: Amin Motamedi
+  photo: amin_motamedi.jpg
   duration: 2024
-  topic:  Psychological Integration in Large Language Models
   cosupervision:
-  info:
-  url:
-    personal_site: https://hongbin-ze.github.io/
-    google_scholar: https://scholar.google.com/citations?hl=en&user=mxK_3hYAAAAJ
-    github: https://github.com/Hongbin-Ze
-    linkedin: https://www.linkedin.com/in/hongbin-na-526543201/
-
-
-
-- name: Junfeng Yan
-  photo: junfeng.jpg
-  duration: 2025
-  cosupervision:
-  topic: Vision Language Models Based Agent
+  topic: 
   info:
   url:
     personal_site: 
     google_scholar: 
     github: 
-    linkedin: 
+    linkedin:
 
-
-
-
-- name: Zheyu Huang
-  photo: zheyu.jpg
-  duration: 2025
+- name: Mehdi Sabour
+  photo: mehdi_sabour.jpg
+  duration: 2024
   cosupervision:
-  topic: Multi-Agent Frameworks for Scientific and Multimodal Reasoning
+  topic: 
   info:
   url:
     personal_site: 
     google_scholar: 
     github: 
-    linkedin: http://linkedin.com/in/zheyu-huang-0547002b4
+    linkedin:
 
+- name: Yopsef Ghaderi
+  photo: yopsef_ghaderi.jpg
+  duration: 2024
+  cosupervision:
+  topic: 
+  info:
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin:
+
+- name: Erfan Shahabi
+  photo: erfan_shahabi.jpg
+  duration: 2024
+  cosupervision:
+  topic: 
+  info:
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin:

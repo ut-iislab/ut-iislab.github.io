@@ -1,35 +1,23 @@
-- name: Yunqiu Xu
-  photo: yunqiu.jpeg
-  duration: PhD (2018 - 2022)
-  cosupervision: Chengqi Zhang
-  info: Machine Learning Engineer, TikTok
+
+- name: Mohammad Javad Ranjbar
+  photo: MohammadJRanbjar.jpeg
+  duration: (2022-2025)
+  cosupervision: Heshaam Faili
+  info: Master of Science in Computer Software Engineering at the University of Tehran; research in conversational AI, speech synthesis, and NLP; Research & Teaching Assistant at University of Tehran’s NLP Lab.
   url:
-    personal_site: 
-    google_scholar: https://scholar.google.com/citations?user=6kfxdwoAAAAJ
-    github: 
-    linkedin: https://www.linkedin.com/in/yunqiu-xu-53052ab4/
+    personal_site: https://mohammadjranjbar.github.io/
+    google_scholar: https://scholar.google.com/citations?user=xE5G7NIAAAAJ&hl=en
+    github: https://github.com/mohammadJRanjbar
+    linkedin: linkedin.com/in/mohammadj/
 
 
-- name: Zihan Zhang
-  photo: zihanz.jpg
-  duration: PhD (2021 - 2024)
-  cosupervision: Jie Lu & Mo Namazi
-  info: Machine Learning Engineer, EML(Employers Mutual Limited)
+
+- name: Vahid Rahimzadeh
+  photo: VahidR.jpg
+  duration: (2022-2025)
+  cosupervision: Masoud Asadpour
+  info: PhD student in Artificial Intelligence at TU Delft; completed M.Sc. in Information Technology Engineering at University of Tehran.
   url:
-    personal_site: https://zhangzihangit.github.io/
-    google_scholar: https://scholar.google.com/citations?user=pkaouXAAAAAJ&hl=en
-    github: https://github.com/ZhangzihanGit
-    linkedin: https://www.linkedin.com/in/zihan-zhang-a40855172/
-
-
-
-- name: Zirui Song
-  photo: zirui.jpg
-  duration: Bachelor with Honours (2023-2024)
-  cosupervision:
-  info: Mohamed bin Zayed University of Artificial Intelligence, Phd
-  url:
-    personal_site: https://ziruisongbest.github.io/
-    google_scholar: https://scholar.google.com.sg/citations?hl=en&user=fmKRIPUAAAAJ
-    github: https://github.com/ZiruiSongBest
-    linkedin: https://www.linkedin.com/in/zirui-song-333863289
+    personal_site: https://vavre.github.io/
+    google_scholar: https://scholar.google.com/citations?user=CTiPTggAAAAJ&hl=en
+    linkedin: https://www.linkedin.com/in/vavre/

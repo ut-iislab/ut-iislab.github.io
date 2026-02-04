@@ -1,62 +1,33 @@
 
-
-- name: Wanqi Yang
-  photo: wanqi.jpg
+- name: Samaneh Peymani Rad
+  photo: samaneh_peymani.jpg
   duration: 2022
   cosupervision: 
-  topic: Multimodal Large Language Model Reasoning
-  url:
-    personal_site: 
-    google_scholar: 
-    github: 
-    linkedin: 
-
-- name: Mingze Zhong
-  photo: mingze.jpeg
-  duration: 2023
-  cosupervision: Hua Zuo
-  topic: Value alignment in LLM agents
+  topic: 
   url:
     personal_site: 
     google_scholar: 
     github: 
     linkedin:
 
-
-- name: Beibei Yu
-  photo: yubei.jpg
-  duration: 2024
-  cosupervision: Jie Lu & Mo Namazi
-  topic: Agentic Reinforcement Learning for Large Language Models
+- name: Peyman Rostami
+  photo: peyman_rostami.jpg
+  duration: 2023
+  cosupervision:
+  topic: Information Retrieval and Expert Finding in Community Question Answering
   url:
     personal_site: 
-    google_scholar: https://scholar.google.com/citations?hl=zh-CN&user=pFn3Bv4AAAAJ
-    github: https://github.com/1423test
-    linkedin: https://www.linkedin.com/in/beibei-yu-83694331a/
+    google_scholar: https://scholar.google.com/citations?hl=en&user=bJ5I4NcAAAAJ
+    github: 
+    linkedin:
 
-
-- name: Jinyuan Luo
-  photo: jinyuan.jpg
+- name: Emad Kebriaei
+  photo: emad_kebriaei.jpg
   duration: 2024
-  cosupervision:  
-  topic: Hallucination Suppression in Large Language Models
+  cosupervision:
+  topic: Persian Natural Language Processing and Text Summarization
   url:
     personal_site: 
     google_scholar: 
-    github: https://github.com/ljy66666
-    linkedin: https://www.linkedin.com/in/jinyuan-luo-6a24b4352/
-
-    
-- name: Biao Wu
-  photo: biaowu.jpg
-  duration: 2025
-  cosupervision: Jie Lu & Mo Namazi
-  topic: Reinforcement Learning Agents for Multimodal Tasks
-  url:
-    personal_site: 
-    google_scholar: https://scholar.google.com.au/citations?hl=en&user=Y3SBBWMAAAAJ
-    github: https://github.com/White65534?tab=repositories
-    linkedin: 
-
-
-
+    github: 
+    linkedin: https://www.linkedin.com/in/emadkebriaei1992
