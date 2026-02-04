@@ -295,15 +295,11 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="avatar_img"  style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>
-    {{ member.duration }}
-    {% if member.current_position != nil and member.current_position != "" %}
+    {{ member.duration }} 
     <br>
+    <!-- co-supervised with {{ member.cosupervision }}
+    <br>  -->
     Current: {{ member.current_position }}
-    {% endif %}
-    {% if member.info != nil and member.info != "" %}
-    <br>
-    {{ member.info }}
-    {% endif %}
   </i>
   <br>
   {% if member.url.personal_site != nil %}
@@ -318,6 +314,8 @@ permalink: /team/
   {% if member.url.linkedin != nil %}
   <a href="{{ member.url.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin"></i></a> &nbsp;
   {%- endif -%}
+  <!-- <ul style="overflow: hidden">
+  </ul> -->
   
 </div>
 
