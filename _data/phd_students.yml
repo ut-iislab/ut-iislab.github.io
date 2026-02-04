@@ -1,7 +1,7 @@
 
 - name: Samaneh Peymani Rad
   photo: samaneh_peymani.jpeg
-  duration: 2022
+  duration: 2022-Present
   cosupervision: 
   topic: 
   url:
@@ -12,7 +12,7 @@
 
 - name: Peyman Rostami
   photo: peyman_rostami.jpeg
-  duration: 2023
+  duration: 2018-Present
   cosupervision:
   topic: Information Retrieval and Expert Finding in Community Question Answering
   url:
@@ -20,4 +20,15 @@
     google_scholar: https://scholar.google.com/citations?hl=en&user=bJ5I4NcAAAAJ
     github: 
     linkedin: https://www.linkedin.com/in/peymanrostami/
+
+- name: Hooman
+  photo: 
+  duration: 2019-Present
+  cosupervision:
+  topic: 
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin: 
 

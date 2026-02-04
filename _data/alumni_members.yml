@@ -12,7 +12,7 @@
 - name: Mohammad Javad Ranjbar
   photo: MohammadJRanjbar.jpeg
   duration: 2022-2025
-  current_position: NLP Intern at EPFL
+  current_position: Self-employed at Farangis.AI :)
   info: Research in speech synthesis and NLP. Co-supervised by Heshaam Faili.
   url:
     personal_site: https://mohammadjranjbar.github.io/
@@ -85,6 +85,17 @@
     google_scholar: 
     github: 
     linkedin: https://www.linkedin.com/in/emadkebriaei1992
+
+- name: Golnar Afzali
+  photo: golnar_afzali.jpeg
+  duration: 2017-2023
+  current_position: AI Product Manager, Navaco Information Technology
+  info: PhD in Information Technology Engineering. Previously Head of AI group at Holoo Software and Data Analyst at ITRC. Specializes in NLP, machine learning, and big data.
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin: https://www.linkedin.com/in/golnar-afzali/
 
 - name: Ayyoob Imani
   photo: ayyoob_imani.jpeg
