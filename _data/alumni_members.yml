@@ -21,7 +21,7 @@
     linkedin: https://www.linkedin.com/in/mohammadj/
 
 - name: Shahla Daneshi
-  photo: shahla_daneshi.jpeg
+  photo: shahla_danseshi.jpeg
   duration: 2022-2023
   current_position: AI Engineer, RunSensible
   info: Research in NLP, LLMs, and legal AI systems. Developed text-to-SQL systems, RAG-based search, and conversational AI. Teaching Assistant for NLP and Neural Networks courses.
@@ -87,7 +87,7 @@
     linkedin: https://www.linkedin.com/in/emadkebriaei1992
 
 - name: Ayyoob Imani
-  photo: ayyoob_imani.jpg
+  photo: ayyoob_imani.jpeg
   duration: 2016-2018
   current_position: Senior Applied Scientist, Microsoft Germany
   info: Completed PhD at LMU Munich. Research focuses on multilingual NLP, parameter efficiency, and model interpretability for large language models.
@@ -98,7 +98,7 @@
     linkedin: https://www.linkedin.com/in/ayyoob-imani/
 
 - name: Mostafa Dehghani
-  photo: mostafa_dehghani.jpg
+  photo: mostafa_dehghani.jpeg
   duration: 2012-2016
   current_position: Research Scientist, Google DeepMind
   info: Key contributor to Vision Transformers and Gemini models. Research focuses on efficient transformers, multimodal learning, and large-scale machine learning.
@@ -120,7 +120,7 @@
     linkedin: https://www.linkedin.com/in/samira-abnar/
 
 - name: Hamed Zamani
-  photo: hamed_zamani.jpg
+  photo: hamed_zamani.jpeg
   duration: 2011-2016
   current_position: Associate Professor, University of Massachusetts Amherst
   info: Associate Director of the Center for Intelligent Information Retrieval (CIIR). Research focuses on neural information retrieval, conversational search, and retrieval-enhanced machine learning.
