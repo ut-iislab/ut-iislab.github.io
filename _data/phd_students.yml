@@ -1,6 +1,6 @@
 
 - name: Samaneh Peymani Rad
-  photo: samaneh_peymani.jpg
+  photo: samaneh_peymani.jpeg
   duration: 2022
   cosupervision: 
   topic: 
@@ -8,10 +8,10 @@
     personal_site: 
     google_scholar: 
     github: 
-    linkedin:
+    linkedin: https://www.linkedin.com/in/samaneh-peymani-rad-40736a144/
 
 - name: Peyman Rostami
-  photo: peyman_rostami.jpg
+  photo: peyman_rostami.jpeg
   duration: 2023
   cosupervision:
   topic: Information Retrieval and Expert Finding in Community Question Answering
@@ -19,10 +19,10 @@
     personal_site: 
     google_scholar: https://scholar.google.com/citations?hl=en&user=bJ5I4NcAAAAJ
     github: 
-    linkedin:
+    linkedin: https://www.linkedin.com/in/peymanrostami/
 
 - name: Emad Kebriaei
-  photo: emad_kebriaei.jpg
+  photo: emad_kebriaei.jpeg
   duration: 2024
   cosupervision:
   topic: Persian Natural Language Processing and Text Summarization

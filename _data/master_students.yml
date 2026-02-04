@@ -13,7 +13,7 @@
     linkedin:
 
 - name: Sina Kargaran
-  photo: sina_kargaran.jpg
+  photo: sina_kargaran.jpeg
   duration: 2023
   cosupervision:
   topic: 
@@ -22,10 +22,10 @@
     personal_site: 
     google_scholar: 
     github: 
-    linkedin:
+    linkedin: https://www.linkedin.com/in/sina-kargaran-06a436207/
 
 - name: Amirhossein Roshandel
-  photo: amirhossein_roshandel.jpg
+  photo: amirhossein_roshandel.jpeg
   duration: 2023
   cosupervision:
   topic: 
@@ -34,12 +34,12 @@
     personal_site: 
     google_scholar: 
     github: 
-    linkedin:
+    linkedin: https://www.linkedin.com/in/amirhossein-roshandel-0ab09a138/
 
 # Master's Students (2024 to Present)
 
 - name: Amin Motamedi
-  photo: amin_motamedi.jpg
+  photo: amin_motamedi.jpeg
   duration: 2024
   cosupervision:
   topic: 
@@ -48,10 +48,10 @@
     personal_site: 
     google_scholar: 
     github: 
-    linkedin:
+    linkedin: https://www.linkedin.com/in/m-amin-motamedi/
 
 - name: Mehdi Sabour
-  photo: mehdi_sabour.jpg
+  photo: mehdi_sabour.jpeg
   duration: 2024
   cosupervision:
   topic: 
@@ -60,10 +60,10 @@
     personal_site: 
     google_scholar: 
     github: 
-    linkedin:
+    linkedin: https://www.linkedin.com/in/mahdi-sabour-306897201/
 
-- name: Yopsef Ghaderi
-  photo: yopsef_ghaderi.jpg
+- name: Yoosef Ghaderi
+  photo: yoosef_ghaderi.jpeg
   duration: 2024
   cosupervision:
   topic: 
@@ -72,10 +72,10 @@
     personal_site: 
     google_scholar: 
     github: 
-    linkedin:
+    linkedin: https://www.linkedin.com/in/yoosef-ghaderi-46b41b390/
 
 - name: Erfan Shahabi
-  photo: erfan_shahabi.jpg
+  photo: erfan_shahabi.jpeg
   duration: 2024
   cosupervision:
   topic: 
@@ -84,4 +84,4 @@
     personal_site: 
     google_scholar: 
     github: 
-    linkedin:
+    linkedin: https://www.linkedin.com/in/erfanshahabi/
