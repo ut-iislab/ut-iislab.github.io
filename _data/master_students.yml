@@ -37,7 +37,18 @@
     linkedin: https://www.linkedin.com/in/amirhossein-roshandel-0ab09a138/
 
 # Master's Students (2024 to Present)
-
+- name: Erfan Shahabi
+  photo: erfan_shahabi.jpeg
+  duration: 2024
+  cosupervision:
+  topic: An Investigation and Enhancement of Strategic Behavior of Large Language Models in Social Context
+  info:
+  url:
+    personal_site: https://erfanshahabi.github.io
+    google_scholar: 
+    github: https://github.com/erfanshahabi
+    linkedin: https://www.linkedin.com/in/erfanshahabi/
+    
 - name: Amin Motamedi
   photo: amin_motamedi.jpeg
   duration: 2024
@@ -74,14 +85,4 @@
     github: 
     linkedin: https://www.linkedin.com/in/yoosef-ghaderi-46b41b390/
 
-- name: Erfan Shahabi
-  photo: erfan_shahabi.jpeg
-  duration: 2024
-  cosupervision:
-  topic: An Investigation and Enhancement of Strategic Behavior of Large Language Models in Social Context
-  info:
-  url:
-    personal_site: https://erfanshahabi.github.io
-    google_scholar: 
-    github: https://github.com/erfanshahabi
-    linkedin: https://www.linkedin.com/in/erfanshahabi/
+
