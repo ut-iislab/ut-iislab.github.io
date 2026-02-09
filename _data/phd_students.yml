@@ -1,4 +1,3 @@
-
 - name: Samaneh Peymani Rad
   photo: samaneh_peymani.jpeg
   duration: 2022-Present
@@ -9,7 +8,6 @@
     google_scholar: 
     github: 
     linkedin: https://www.linkedin.com/in/samaneh-peymani-rad-40736a144/
-
 - name: Peyman Rostami
   photo: peyman_rostami.jpeg
   duration: 2018-Present
@@ -20,7 +18,6 @@
     google_scholar: https://scholar.google.com/citations?hl=en&user=bJ5I4NcAAAAJ
     github: 
     linkedin: https://www.linkedin.com/in/peymanrostami/
-
 - name: Hooman
   photo: 
   duration: 2019-Present
@@ -30,5 +27,34 @@
     personal_site: 
     google_scholar: 
     github: 
-    linkedin: 
-
+    linkedin:
+- name: Mohammad Sadegh Sadeghi
+  photo: sadegh_sadeghi.jpeg
+  duration: 2021-Present
+  cosupervision:
+  topic: Conversational AI and LLM-powered recommender systems
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin: https://www.linkedin.com/in/mohammad-sadegh-sadeghi/
+- name: Emad Kebriaei
+  photo: emad_kebriaei.jpeg
+  duration: 2017-Present
+  cosupervision:
+  topic: Persian NLP, offensive language detection, and abstractive summarization
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin: https://www.linkedin.com/in/emadkebriaei1992
+- name: Golnar Afzali
+  photo: golnar_afzali.jpeg
+  duration: 2017-Present
+  cosupervision:
+  topic: NLP, machine learning, and big data
+  url:
+    personal_site: 
+    google_scholar: 
+    github: 
+    linkedin: https://www.linkedin.com/in/golnar-afzali/
