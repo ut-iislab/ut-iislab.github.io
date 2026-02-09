@@ -8,7 +8,6 @@
     google_scholar: https://scholar.google.com/citations?user=CTiPTggAAAAJ
     github: https://github.com/vavre
     linkedin: https://www.linkedin.com/in/vavre/
-
 - name: Mohammad Javad Ranjbar
   photo: MohammadJRanjbar.jpeg
   duration: 2022-2025
@@ -19,7 +18,6 @@
     google_scholar: https://scholar.google.com/citations?user=xE5G7NIAAAAJ
     github: https://github.com/mohammadJRanjbar
     linkedin: https://www.linkedin.com/in/mohammadj/
-
 - name: Shahla Daneshi
   photo: shahla_danseshi.jpeg
   duration: 2022-2023
@@ -30,7 +28,6 @@
     google_scholar: 
     github: 
     linkedin: https://www.linkedin.com/in/shahla-daneshi/
-
 - name: MohammadJavad Kamyab
   photo: mohammadjavad_kamyab.jpeg
   duration: 2021-2024
@@ -41,7 +38,6 @@
     google_scholar: 
     github: 
     linkedin: https://www.linkedin.com/in/mohammadjavad-kamyab/
-
 - name: Mahsan Akbari Amin
   photo: mahsan_akbari.jpeg
   duration: 2020-2023
@@ -52,40 +48,6 @@
     google_scholar: 
     github: 
     linkedin: https://www.linkedin.com/in/mahsan-akbari-amin/
-
-- name: Mohammad Sadegh Sadeghi
-  photo: sadegh_sadeghi.jpeg
-  duration: 2021-2025
-  current_position: AI Engineer, Mofid Securities
-  info: Research in conversational AI and LLM-powered recommender systems.
-  url:
-    personal_site: 
-    google_scholar: 
-    github: 
-    linkedin: https://www.linkedin.com/in/mohammad-sadegh-sadeghi/
-
-- name: Emad Kebriaei
-  photo: emad_kebriaei.jpeg
-  duration: 2017-2023
-  current_position: NLP Engineer, Sagehood.AI
-  info: Research in Persian NLP, offensive language detection, and abstractive summarization.
-  url:
-    personal_site: 
-    google_scholar: 
-    github: 
-    linkedin: https://www.linkedin.com/in/emadkebriaei1992
-
-- name: Golnar Afzali
-  photo: golnar_afzali.jpeg
-  duration: 2017-2023
-  current_position: AI Product Manager, Navaco Information Technology
-  info: PhD in Information Technology Engineering. Previously Head of AI group at Holoo Software and Data Analyst at ITRC. Specializes in NLP, machine learning, and big data.
-  url:
-    personal_site: 
-    google_scholar: 
-    github: 
-    linkedin: https://www.linkedin.com/in/golnar-afzali/
-
 - name: Ayyoob Imani
   photo: ayyoob_imani.jpeg
   duration: 2016-2018
@@ -96,7 +58,6 @@
     google_scholar: https://scholar.google.com/citations?user=QoXULu8AAAAJ
     github: https://github.com/ayyoobimani
     linkedin: https://www.linkedin.com/in/ayyoob-imani/
-
 - name: Mostafa Dehghani
   photo: mostafa_dehghani.jpeg
   duration: 2012-2016
@@ -107,7 +68,6 @@
     google_scholar: https://scholar.google.com/citations?user=94waFbcAAAAJ
     github: 
     linkedin:
-
 - name: Samira Abnar
   photo: samira_abnar.jpg
   duration: 2011-2015
@@ -118,7 +78,6 @@
     google_scholar: 
     github: https://github.com/samiraabnar
     linkedin: https://www.linkedin.com/in/samira-abnar/
-
 - name: Hamed Zamani
   photo: hamed_zamani.jpeg
   duration: 2011-2016
@@ -129,7 +88,6 @@
     google_scholar: https://scholar.google.com/citations?user=5dobt1EAAAAJ
     github: 
     linkedin:
-
 - name: Homa B. Hashemi
   photo: homa_hashemi.jpg
   duration: 2008-2011
@@ -140,7 +98,6 @@
     google_scholar: https://scholar.google.com/citations?user=XXXXXXXXX
     github: 
     linkedin:
-
 - name: Javid Dadashkarimi
   photo: javid_dadashkarimi.jpeg
   duration: 2008-2015
