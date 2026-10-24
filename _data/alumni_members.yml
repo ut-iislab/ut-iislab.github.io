@@ -4,7 +4,7 @@
   current_position: PhD student, TU Delft
   info: Research in NLP, computational social science, and user behavior modeling. Co-supervised by Masoud Asadpour.
   url:
-    personal_site: https://vavre.github.io/
+    personal_site: https://vavre.me/
     google_scholar: https://scholar.google.com/citations?user=CTiPTggAAAAJ
     github: https://github.com/vavre
     linkedin: https://www.linkedin.com/in/vavre/
@@ -51,11 +51,11 @@
 - name: Ayyoob Imani
   photo: ayyoob_imani.jpeg
   duration: 2016-2018
-  current_position: Senior Applied Scientist, Microsoft Germany
+  current_position: Applied Scientist, Microsoft Germany
   info: Completed PhD at LMU Munich. Research focuses on multilingual NLP, parameter efficiency, and model interpretability for large language models.
   url:
     personal_site: https://ayyoobimani.github.io/
-    google_scholar: https://scholar.google.com/citations?user=QoXULu8AAAAJ
+    google_scholar: https://scholar.google.com/citations?user=vtpOxL8AAAAJ
     github: https://github.com/ayyoobimani
     linkedin: https://www.linkedin.com/in/ayyoob-imani/
 - name: Mostafa Dehghani
@@ -64,9 +64,9 @@
   current_position: Research Scientist, Google DeepMind
   info: Key contributor to Vision Transformers and Gemini models. Research focuses on efficient transformers, multimodal learning, and large-scale machine learning.
   url:
-    personal_site: http://mostafadehghani.com/
-    google_scholar: https://scholar.google.com/citations?user=94waFbcAAAAJ
-    github: 
+    personal_site: 
+    google_scholar: https://scholar.google.com/citations?user=MiHOX3QAAAAJ
+    github: https://github.com/MostafaDehghani
     linkedin:
 - name: Samira Abnar
   photo: samira_abnar.jpg
@@ -75,7 +75,7 @@
   info: Completed PhD at University of Amsterdam. Research focuses on generative modeling, attention mechanisms, and compositional generalization in deep learning.
   url:
     personal_site: https://samiraabnar.github.io/
-    google_scholar: 
+    google_scholar: https://scholar.google.com/citations?user=jbxwjgMAAAAJ
     github: https://github.com/samiraabnar
     linkedin: https://www.linkedin.com/in/samira-abnar/
 - name: Hamed Zamani
@@ -84,18 +84,18 @@
   current_position: Associate Professor, University of Massachusetts Amherst
   info: Associate Director of the Center for Intelligent Information Retrieval (CIIR). Research focuses on neural information retrieval, conversational search, and retrieval-enhanced machine learning.
   url:
-    personal_site: https://people.cs.umass.edu/~zamani/
-    google_scholar: https://scholar.google.com/citations?user=5dobt1EAAAAJ
-    github: 
-    linkedin:
+    personal_site: https://groups.cs.umass.edu/zamani/
+    google_scholar: https://scholar.google.com/citations?user=d2uzDIAAAAAJ
+    github: https://github.com/hamed-zamani
+    linkedin: https://www.linkedin.com/in/hamedzamani/
 - name: Homa B. Hashemi
   photo: homa_hashemi.jpg
   duration: 2008-2011
   current_position: Applied Scientist, Microsoft
   info: Completed PhD at University of Pittsburgh. Research focuses on robust parsing for ungrammatical sentences and cross-language information retrieval.
   url:
-    personal_site: http://www.cs.pitt.edu/~hashemi/
-    google_scholar: 
+    personal_site: https://people.cs.pitt.edu/~hashemi/
+    google_scholar: https://scholar.google.com/citations?user=OFNUXucAAAAJ
     github: 
     linkedin:
 - name: Javid Dadashkarimi
@@ -105,6 +105,6 @@
   info: Research in AI for medical imaging, neuroimaging, and deep learning for fetal brain segmentation. Previously at Yale University and Harvard Medical School.
   url:
     personal_site: https://dadashkarimi.github.io/
-    google_scholar: 
+    google_scholar: https://scholar.google.com/citations?user=LrXokpIAAAAJ
     github: https://github.com/dadashkarimi
     linkedin: https://www.linkedin.com/in/javid-dadashkarimi/

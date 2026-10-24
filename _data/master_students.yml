@@ -4,10 +4,10 @@
   photo: parmis_bathayan.jpg
   duration: 2023
   cosupervision:
-  topic: 
+  topic: Leveraging EEG signals from Persian and English speakers to enhance multimodal sentiment analysis
   info:
   url:
-    personal_site: 
+    personal_site: https://parmisbathayan.github.io/
     google_scholar: 
     github: https://github.com/parmisbathayan
     linkedin:
@@ -32,7 +32,7 @@
   info: Research in NLP, Conversational Recommender Systems and LLMs.
   url:
     personal_site: https://ahroshandel.github.io
-    google_scholar: 
+    google_scholar: https://scholar.google.com/citations?user=-LzCWvkAAAAJ
     github: https://github.com/ahroshandel
     linkedin: https://www.linkedin.com/in/amirhossein-roshandel-0ab09a138/
 
@@ -44,8 +44,8 @@
   topic: An Investigation and Enhancement of Strategic Behavior of Large Language Models in Social Context
   info:
   url:
-    personal_site: https://erfanshahabi.github.io
-    google_scholar: 
+    personal_site: https://erfanshahabi.com/
+    google_scholar: https://scholar.google.com/citations?user=zzYEaVQAAAAJ
     github: https://github.com/erfanshahabi
     linkedin: https://www.linkedin.com/in/erfanshahabi/
     
