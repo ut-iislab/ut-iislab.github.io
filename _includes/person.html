@@ -22,7 +22,7 @@
     <ul class="education">{% for e in m.education %}<li>{{ e }}</li>{% endfor %}</ul>
     {%- endif %}
     {%- elsif include.kind == "alumni" %}
-    {%- if m.duration %}<p class="person-meta">{{ m.duration }}</p>{% endif %}
+    {%- if m.degree or m.duration %}<p class="person-meta">{{ m.degree }}{% if m.degree and m.duration %} &middot; {% endif %}{{ m.duration }}</p>{% endif %}
     {%- if m.current_position and m.current_position != "" %}<p class="person-topic">{{ m.current_position }}</p>{% endif %}
     {%- else %}
     {%- if m.duration %}<p class="person-meta">Since {{ m.duration | remove: "-Present" | remove: "-present" }}</p>{% endif %}

@@ -108,3 +108,247 @@
     google_scholar: https://scholar.google.com/citations?user=LrXokpIAAAAJ
     github: https://github.com/dadashkarimi
     linkedin: https://www.linkedin.com/in/javid-dadashkarimi/
+
+# PhD alumni (from Azadeh Shakery's theses page; years only where confirmed)
+- name: Parisa Bazmi
+  photo:
+  degree: PhD
+  duration: 2023
+  current_position: Shiraz University of Technology
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=ZUHnFQMAAAAJ
+    github:
+    linkedin:
+
+- name: Samaneh Karimi
+  photo:
+  degree: PhD
+  duration: 2021
+  current_position:
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=MhzILOwAAAAJ
+    github:
+    linkedin:
+
+- name: Mohsen Raeesi
+  photo:
+  degree: PhD
+  duration: 2020
+  current_position:
+  url:
+    personal_site:
+    google_scholar:
+    github:
+    linkedin:
+
+- name: Shayan A. Tabrizi
+  photo:
+  degree: PhD
+  duration: 2019
+  current_position:
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=jQ6RuFoAAAAJ
+    github:
+    linkedin:
+
+- name: Elham Ghanbari
+  photo:
+  degree: PhD
+  duration: 2011-2018
+  current_position: Islamic Azad University, Shahr-e-Rey Branch
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=KDTCt2QAAAAJ
+    github:
+    linkedin:
+
+- name: Razieh Negin Rahimi
+  photo:
+  degree: PhD
+  duration:
+  current_position: Assistant Professor, University of Massachusetts Amherst
+  url:
+    personal_site: https://people.cs.umass.edu/~rahimi/
+    google_scholar: https://scholar.google.com/citations?user=zk3TSwIAAAAJ
+    github: https://github.com/Negin-Rahimi
+    linkedin:
+
+- name: Nava Ehsan
+  photo:
+  degree: PhD
+  duration:
+  current_position: Scripps Research
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=FKaHTSgAAAAJ
+    github:
+    linkedin:
+
+- name: Fatemeh Amiri
+  photo:
+  degree: PhD
+  duration:
+  current_position: Assistant Professor, Hamedan University of Technology
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=dh-qCVoAAAAJ
+    github:
+    linkedin:
+
+- name: Alireza Meshkin
+  photo:
+  degree: PhD
+  duration:
+  current_position: Islamic Azad University, Damavand Branch
+  url:
+    personal_site:
+    google_scholar:
+    github:
+    linkedin:
+
+# Master's alumni with public profiles
+- name: Sajad Movahedi
+  photo:
+  degree: MSc
+  duration: 2022
+  current_position: ELLIS Institute Tübingen and Max Planck Institute for Intelligent Systems
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=z76VTN4AAAAJ
+    github:
+    linkedin:
+
+- name: Amir Vakili Tahami
+  photo:
+  degree: MSc
+  duration: 2020
+  current_position: University of Waterloo
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=C7aD0jsAAAAJ
+    github:
+    linkedin:
+
+- name: Yasin Ghafourian
+  photo:
+  degree: MSc
+  duration: 2019
+  current_position: Researcher, Research Studios Austria; PhD student, TU Wien
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=3F0iSEkAAAAJ
+    github:
+    linkedin:
+
+- name: Marzieh Fadaee
+  photo:
+  degree: MSc
+  duration: 2010-2013
+  current_position: Head of Cohere Labs, Cohere
+  url:
+    personal_site: https://marziehf.github.io/
+    google_scholar: https://scholar.google.com/citations?user=NZqs0toAAAAJ
+    github: https://github.com/marziehf
+    linkedin:
+
+- name: Ali Montazeralghaem
+  photo:
+  degree: MSc
+  duration:
+  current_position: Google
+  url:
+    personal_site: https://montazerali.github.io/
+    google_scholar: https://scholar.google.com/citations?user=qTJcH3UAAAAJ
+    github: https://github.com/montazerali
+    linkedin:
+
+- name: Mozhdeh Ariannezhad
+  photo:
+  degree: MSc
+  duration:
+  current_position: Booking.com
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=vGGDHL8AAAAJ
+    github:
+    linkedin:
+
+- name: Amirhossein Tebbifakhr
+  photo:
+  degree: MSc
+  duration:
+  current_position: eBay
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=iaqI0ZEAAAAJ
+    github:
+    linkedin:
+
+- name: Hosein Azarbonyad
+  photo:
+  degree: MSc
+  duration:
+  current_position: Elsevier
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=JHL38zQAAAAJ
+    github:
+    linkedin:
+
+- name: Elahe Dabir (Rahimtoroghi)
+  photo:
+  degree: MSc
+  duration:
+  current_position: Google Research
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=0435CYQAAAAJ
+    github:
+    linkedin:
+
+- name: Zahra Rahimi
+  photo:
+  degree: MSc
+  duration:
+  current_position: Scientist, Amazon
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=Dk7925cAAAAJ
+    github:
+    linkedin:
+
+- name: Mahsa S. Shahshahani
+  photo:
+  degree: MSc
+  duration:
+  current_position:
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=61heo2wAAAAJ
+    github:
+    linkedin:
+
+- name: Hossein Nasr Esfahani
+  photo:
+  degree: MSc
+  duration:
+  current_position:
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=wPtVcTQAAAAJ
+    github:
+    linkedin:
+
+- name: Hossein Rahmatizadeh Zagheli
+  photo:
+  degree: MSc
+  duration:
+  current_position:
+  url:
+    personal_site:
+    google_scholar: https://scholar.google.com/citations?user=Mnjj0mwAAAAJ
+    github:
+    linkedin:
