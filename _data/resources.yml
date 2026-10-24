@@ -47,6 +47,17 @@ datasets:
     paper: https://aclanthology.org/2026.lrec-1.342/
     dataset: https://huggingface.co/datasets/MohammadJRanjbar/PersianMedQA
 
+  - name: PARSA-Bench
+    title: "A Persian Audio-Language Model Benchmark"
+    description: "The first benchmark for audio-language models on Persian language and culture: 16 tasks across speech understanding, paralinguistics and culturally grounded audio reasoning, including Persian poetry and music."
+    year: 2026
+    venue: arXiv preprint
+    stats:
+      - value: "16"
+        label: tasks
+    paper: https://arxiv.org/abs/2603.14456
+    dataset: https://huggingface.co/datasets/MohammadJRanjbar/PARSA-Bench
+
   - name: PerCul
     title: "A Story-Driven Cultural Evaluation of LLMs in Persian"
     description: "Dataset designed to assess cultural sensitivity of LLMs toward Persian culture through story-based, multiple-choice questions."

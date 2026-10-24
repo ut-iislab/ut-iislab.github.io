@@ -4,7 +4,7 @@
   photo: parmis_bathayan.jpg
   duration: 2023
   cosupervision:
-  topic: Leveraging EEG signals from Persian and English speakers to enhance multimodal sentiment analysis
+  topic: EEG signals for multimodal sentiment analysis in Persian and English
   info:
   url:
     personal_site: https://parmisbathayan.github.io/

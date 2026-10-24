@@ -36,6 +36,34 @@
     code:  
     data: https://huggingface.co/datasets/MohammadJRanjbar/PersianMedQA
 
+- title: "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios"
+  year: 2026
+  authors: A. Zamani, S. Esfahanian, E. Shahabi, M.T. Pilehvar, A. Shakery, Y. Yaghoobzadeh
+  venue: arXiv preprint arXiv:2610.20548
+  venue_type: preprint
+  link:
+    url: https://arxiv.org/abs/2610.20548
+    code:  
+
+- title: "SimInter: Evidence-Grounded User Simulation with Interview-Based Profile Enrichment for Conversational Recommender Systems"
+  year: 2026
+  authors: E. Shahabi, A. Roshandel, M.S. Sadeghi, A. Shakery
+  venue: arXiv preprint arXiv:2610.18308
+  venue_type: preprint
+  link:
+    url: https://arxiv.org/abs/2610.18308
+    code:  
+
+- title: "PARSA-Bench: A Comprehensive Persian Audio-Language Model Benchmark"
+  year: 2026
+  authors: M.J. Ranjbar Kalahroodi, M. Amini, P. Bathayan, H. Faili, A. Shakery
+  venue: arXiv preprint arXiv:2603.14456
+  venue_type: preprint
+  link:
+    url: https://arxiv.org/abs/2603.14456
+    code:  
+    data: https://huggingface.co/datasets/MohammadJRanjbar/PARSA-Bench
+
 # 2025
 
 - title: "PolitiSky24: U.S. Political Bluesky Dataset with User Stance Labels"
