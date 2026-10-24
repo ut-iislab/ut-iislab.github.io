@@ -15,6 +15,7 @@ datasets:
         label: speakers
     paper: https://arxiv.org/abs/2510.10774
     dataset: https://huggingface.co/datasets/MohammadJRanjbar/ParsVoice
+    license: https://creativecommons.org/licenses/by-nc/4.0/
     code: https://github.com/MohammadJRanjbar/ParsVoice
     model: https://huggingface.co/MohammadJRanjbar/ParsVoice-XTTS
     demo: https://mohammadjranjbar.github.io/ParsVoice/

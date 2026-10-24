@@ -1,7 +1,7 @@
 ---
 title: "IIS Lab · University of Tehran"
 layout: homelay
-excerpt: "The Intelligent Information Systems Lab at the University of Tehran works on information retrieval, cross-language search and Persian language technology."
+excerpt: "The Intelligent Information Systems (IIS) Lab at the University of Tehran works on information retrieval, cross-language search, Persian NLP and LLM evaluation."
 sitemap: true
 permalink: /
 ---

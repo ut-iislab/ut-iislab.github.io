@@ -7,11 +7,37 @@
 
 # Site settings
 title: IIS Lab · University of Tehran
-email: your-email@domain.com
+name: Intelligent Information Systems Lab
+name_fa: آزمایشگاه سیستم‌های هوشمند اطلاعات
 description: > # this means to ignore newlines until "baseurl:"
-  The Intelligent Information Systems Lab at the University of Tehran: natural language processing, information retrieval and speech, with a focus on Persian and low-resource languages.
+  The Intelligent Information Systems (IIS) Lab at the University of Tehran works on information retrieval, cross-language search, Persian NLP and LLM evaluation, and releases open Persian datasets and models.
 baseurl: ""
-url: ""
+url: "https://ut-iislab.github.io"
+github: https://github.com/ut-iislab
+
+# Search keywords, used in the keywords meta tag and structured data.
+# Pages can add their own with a `keywords:` list in their front matter.
+keywords:
+  - IIS Lab
+  - Intelligent Information Systems Lab
+  - University of Tehran
+  - UT IIS Lab
+  - School of Electrical and Computer Engineering
+  - information retrieval
+  - natural language processing
+  - Persian NLP
+  - Farsi NLP
+  - cross-language information retrieval
+  - large language models
+  - LLM evaluation
+  - Persian datasets
+  - Azadeh Shakery
+  - آزمایشگاه سیستم‌های هوشمند اطلاعات
+  - دانشگاه تهران
+  - بازیابی اطلاعات
+  - پردازش زبان طبیعی
+  - پردازش زبان فارسی
+  - مدل‌های زبانی بزرگ
 
 include:
   - .htaccess

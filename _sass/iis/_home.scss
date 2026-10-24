@@ -91,6 +91,13 @@
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 
+.hero-fa-desc {
+  margin: 1.5rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.8;
+  color: var(--text-3);
+}
+
 // ---------- Research ----------
 
 .areas {

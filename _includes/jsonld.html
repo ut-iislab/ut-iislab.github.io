@@ -1,0 +1,72 @@
+{%- comment -%}
+  Structured data (schema.org JSON-LD). Every page describes the lab; the
+  Resources page also lists each dataset for Google Dataset Search.
+{%- endcomment -%}
+{%- assign home = '/' | prepend: site.baseurl | prepend: site.url -%}
+{%- assign director = site.data.faculty_members | first -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "@id": "{{ home }}#lab",
+  "name": {{ site.name | jsonify }},
+  "alternateName": ["IIS Lab", "UT IIS Lab", {{ site.name_fa | jsonify }}],
+  "url": "{{ home }}",
+  "logo": "{{ '/images/favicon_io/android-chrome-512x512.png' | prepend: site.baseurl | prepend: site.url }}",
+  "image": "{{ '/images/og-image.png' | prepend: site.baseurl | prepend: site.url }}",
+  "description": {{ site.description | strip_newlines | strip | jsonify }},
+  "keywords": {{ site.keywords | join: ', ' | jsonify }},
+  "knowsAbout": [{% for a in site.data.research_areas %}{{ a.title | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Tehran",
+    "alternateName": "دانشگاه تهران",
+    "url": "https://ut.ac.ir/en",
+    "department": {
+      "@type": "Organization",
+      "name": "School of Electrical and Computer Engineering",
+      "url": "https://ece.ut.ac.ir/en"
+    }
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "North Kargar St.",
+    "addressLocality": "Tehran",
+    "addressCountry": "IR"
+  },
+  "employee": {
+    "@type": "Person",
+    "name": {{ director.name | jsonify }},
+    "jobTitle": {{ director.info | append: ", " | append: director.role | jsonify }},
+    "sameAs": [{{ director.url.google_scholar | jsonify }}]
+  },
+  "sameAs": [{{ site.github | jsonify }}]
+}
+</script>
+{%- if page.url contains "/resources" %}
+{%- for r in site.data.resources.datasets %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": {{ r.name | append: ": " | append: r.title | jsonify }},
+  "alternateName": {{ r.name | jsonify }},
+  "description": {{ r.description | jsonify }},
+  {%- if r.dataset %}
+  "url": {{ r.dataset | jsonify }},
+  {%- endif %}
+  {%- if r.paper and r.paper contains "http" %}
+  "citation": {{ r.paper | jsonify }},
+  {%- endif %}
+  {%- if r.license %}
+  "license": {{ r.license | jsonify }},
+  {%- endif %}
+  "datePublished": "{{ r.year }}",
+  "inLanguage": ["fa", "en"],
+  "keywords": ["Persian", "Farsi", {{ r.name | jsonify }}{% if r.venue %}, {{ r.venue | jsonify }}{% endif %}],
+  "creator": { "@id": "{{ home }}#lab", "@type": "ResearchOrganization", "name": {{ site.name | jsonify }} },
+  "isAccessibleForFree": true
+}
+</script>
+{%- endfor %}
+{%- endif %}
