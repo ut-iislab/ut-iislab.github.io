@@ -1,0 +1,78 @@
+// Reusable pieces: buttons, inline links, tags, icon links.
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.92rem;
+  font-weight: 500;
+  padding: 0.65rem 1.05rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  &:hover { text-decoration: none; }
+  .fa-solid { font-size: 0.78em; }
+}
+.btn-solid {
+  background: var(--brand);
+  color: var(--brand-ink);
+  &:hover { background: var(--link); color: #fff; }
+}
+.btn-line {
+  border-color: var(--line-2);
+  color: var(--text);
+  &:hover { border-color: var(--text); color: var(--text); }
+}
+
+// Paper / Code / Dataset / Model / Demo, as plain inline links.
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  a { display: inline-flex; align-items: center; gap: 0.35rem; }
+  i { font-size: 0.82em; opacity: 0.75; }
+}
+
+// Small text tag, e.g. a venue.
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--brand);
+  background: var(--brand-soft);
+  padding: 0.18rem 0.5rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.new {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--mark);
+  &::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+}
+
+.icon-links {
+  display: flex;
+  gap: 0.1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  a {
+    display: inline-grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    color: var(--text-3);
+    &:hover { color: var(--brand); background: var(--brand-soft); text-decoration: none; }
+  }
+}

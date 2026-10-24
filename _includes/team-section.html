@@ -1,0 +1,16 @@
+{%- comment -%}
+  A team section; renders nothing when the data file is empty.
+  Usage: {% include team-section.html id="phd" title="PhD students" members=site.data.phd_students kind="student" %}
+{%- endcomment -%}
+{%- assign ms = include.members -%}
+{%- assign kind = include.kind -%}
+{%- if ms and ms.size > 0 %}
+<section class="split" id="{{ include.id }}">
+  <p class="label">{{ include.title }} &middot; {{ ms.size }}</p>
+  <div class="people{% if kind == 'faculty' %} people-lead{% endif %}">
+    {%- for member in ms %}
+    {% include person.html m=member kind=kind %}
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}

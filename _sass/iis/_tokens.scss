@@ -1,0 +1,57 @@
+// Design tokens: white, ink and University of Tehran navy, with UT azure
+// for links. Colors and fluid sizes live in custom properties so the
+// GitHub Pages Sass compiler (Ruby Sass 3.7) passes them through untouched.
+
+:root {
+  --bg: #ffffff;
+  --bg-2: #f4f6f9;
+  --text: #0b1220;
+  --text-2: #465062;
+  --text-3: #7b8394;
+  --line: #e5e8ee;
+  --line-2: #cfd5de;
+
+  --brand: #0d2b67;       // UT navy (ut.ac.ir)
+  --brand-ink: #ffffff;
+  --brand-soft: #eaf0fa;
+  --link: #0a58d0;        // UT azure, darkened for contrast on white
+  --link-hover: #0d2b67;
+  --mark: #b3141b;        // UT maroon-red, used only for "new"
+
+  --header-bg: rgba(255, 255, 255, 0.92);
+
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --fa: "Vazirmatn", "IBM Plex Sans Arabic", Tahoma, sans-serif;
+
+  --fs-hero: clamp(1.9rem, 1rem + 2vw, 2.7rem);
+  --fs-h1: clamp(2rem, 1.4rem + 2vw, 3rem);
+  --wrap: 1080px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --label: 200px;
+  --label-gap: clamp(1.25rem, 4vw, 3rem);
+  --radius: 10px;
+}
+
+@mixin dark-tokens {
+  --bg: #0a0f1a;
+  --bg-2: #121a2a;
+  --text: #e9edf4;
+  --text-2: #b1b9c7;
+  --text-3: #7f8899;
+  --line: #1e2738;
+  --line-2: #2e3a50;
+
+  --brand: #9db8ff;
+  --brand-ink: #0a0f1a;
+  --brand-soft: #16223c;
+  --link: #82b1ff;
+  --link-hover: #c0d6ff;
+  --mark: #ff6b6b;
+
+  --header-bg: rgba(10, 15, 26, 0.9);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include dark-tokens; }
+}
+:root[data-theme="dark"] { @include dark-tokens; }

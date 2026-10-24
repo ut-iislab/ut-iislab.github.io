@@ -1,29 +1,38 @@
+- date: Sep 2026
+  headline: 'Our paper "ParsVoice: A Large-Scale Multi-Speaker Persian Speech Corpus for Text-to-Speech Synthesis" has been accepted at the **EMNLP 2026 Main Conference**, congratulations!'
+
+- date: Sep 2026
+  headline: 'ParsVoice is now public, with 2,178 hours of Persian speech from 1,803 speakers on [Hugging Face](https://huggingface.co/datasets/MohammadJRanjbar/ParsVoice), the corpus-building pipeline on [GitHub](https://github.com/MohammadJRanjbar/ParsVoice), and a fine-tuned [XTTS model](https://huggingface.co/MohammadJRanjbar/ParsVoice-XTTS).'
+
+- date: Apr 2026
+  headline: 'The PersianPunc [dataset](https://huggingface.co/datasets/MohammadJRanjbar/PersianPunc) and [ParsBERT punctuation model](https://huggingface.co/MohammadJRanjbar/parsbert-persian-punctuation) are released.'
+
 - date: Jan 2026
-  headline: Our paper "PersianPunc A Corpus for Persian Punctuation Restoration" has been accepted at **SilkRoad NLP Workshop @ EACL 2025**, congratulations!
+  headline: 'Our paper "PersianPunc: A Corpus for Persian Punctuation Restoration" has been accepted at **SilkRoad NLP Workshop @ EACL 2026**, congratulations!'
 
 - date: Jan 2025
-  headline: Our paper "PerCul A Story-Driven Cultural Evaluation of LLMs in Persian" has been accepted at **NAACL 2025**, congratulations to all authors!
+  headline: 'Our paper "PerCul: A Story-Driven Cultural Evaluation of LLMs in Persian" has been accepted at **NAACL 2025**, congratulations to all authors!'
 
 - date: Jan 2025
-  headline: Our paper "From Millions of Tweets to Actionable Insights Leveraging LLMs for User Profiling" has been accepted at **MisD Workshop @ AAAI ICWSM 2025**, congratulations!
+  headline: 'Our paper "From Millions of Tweets to Actionable Insights: Leveraging LLMs for User Profiling" has been accepted at **MisD Workshop @ AAAI ICWSM 2025**, congratulations!'
 
 - date: Dec 2024
-  headline: Our paper "PolitiSky24 US Political Bluesky Dataset with User Stance Labels" has been accepted at **EMNLP 2025 Findings**, congratulations!
+  headline: 'Our paper "PolitiSky24: US Political Bluesky Dataset with User Stance Labels" has been accepted at **EMNLP 2025 Findings**, congratulations!'
 
 - date: Jul 2024
-  headline: Our paper "Persian offensive language detection" has been published in **Machine Learning** journal, congratulations to all authors!
+  headline: 'Our paper "Persian offensive language detection" has been published in **Machine Learning** journal, congratulations to all authors!'
 
 - date: May 2024
-  headline: Our paper "Entity-centric multi-domain transformer for improving generalization in fake news detection" has been published in **Information Processing & Management**, congratulations!
+  headline: 'Our paper "Entity-centric multi-domain transformer for improving generalization in fake news detection" has been published in **Information Processing & Management**, congratulations!'
 
 - date: May 2024
-  headline: Our paper "Harnessing the power of metadata for enhanced question retrieval in community question answering" has been published in **IEEE Access**, congratulations!
+  headline: 'Our paper "Harnessing the power of metadata for enhanced question retrieval in community question answering" has been published in **IEEE Access**, congratulations!'
 
 - date: Oct 2023
-  headline: Our paper "PEACH Pre-Training Sequence-to-Sequence Multilingual Models for Translation" has been accepted at **LoResMT Workshop @ EMNLP 2023**, congratulations!
+  headline: 'Our paper "PEACH: Pre-Training Sequence-to-Sequence Multilingual Models for Translation" has been accepted at **LoResMT Workshop @ EMNLP 2023**, congratulations!'
 
 - date: Feb 2023
-  headline: Our paper "Enhancement of Twitter event detection using news streams" has been published in **Natural Language Engineering**, congratulations!
+  headline: 'Our paper "Enhancement of Twitter event detection using news streams" has been published in **Natural Language Engineering**, congratulations!'
 
 - date: Jan 2023
-  headline: Our paper "Multi-view co-attention network for fake news detection" has been published in **Information Processing & Management**, congratulations!
+  headline: 'Our paper "Multi-view co-attention network for fake news detection" has been published in **Information Processing & Management**, congratulations!'

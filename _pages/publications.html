@@ -1,0 +1,61 @@
+---
+title: "Publications · IIS Lab"
+layout: gridlay
+excerpt: "Publications of the Intelligent Information Systems Lab, University of Tehran."
+sitemap: true
+permalink: /publications/
+---
+{%- comment -%}
+  Generated from _data/publist.yml, grouped by year. To add a paper, add an
+  entry to that file. venue_type drives the filter buttons.
+{%- endcomment -%}
+{%- assign pubs = site.data.publist -%}
+{%- assign groups = pubs | group_by: "year" | sort: "name" | reverse -%}
+{%- assign oldest = groups | last -%}
+
+<header class="page-head">
+  <h1>Publications</h1>
+  <p class="lede">{{ pubs.size }} papers since {{ oldest.name }}. The complete record is on <a href="https://scholar.google.com/citations?user=E-QpN74AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
+</header>
+
+<div class="pub-tools" role="search">
+  <label class="search">
+    <span class="sr-only">Search publications</span>
+    <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+    <input id="pub-search" type="search" placeholder="Search title, author or venue" autocomplete="off">
+  </label>
+  <div class="filters" role="group" aria-label="Filter by type">
+    <button type="button" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-filter="conference" aria-pressed="false">Conference</button>
+    <button type="button" data-filter="journal" aria-pressed="false">Journal</button>
+    <button type="button" data-filter="workshop" aria-pressed="false">Workshop</button>
+    <button type="button" data-filter="preprint" aria-pressed="false">Preprint</button>
+  </div>
+  <span class="pub-count" id="pub-count" aria-live="polite">{{ pubs.size }} papers</span>
+</div>
+
+{%- for g in groups %}
+<section class="split pub-year" id="y{{ g.name }}" data-year>
+  <h2>{{ g.name }}</h2>
+  <ol class="pub-list">
+    {%- for p in g.items %}
+    {%- assign type = p.venue_type | default: "journal" -%}
+    {%- capture haystack -%}{{ p.title }} {{ p.authors }} {{ p.venue }}{%- endcapture -%}
+    <li class="pub" data-type="{{ type }}" data-text="{{ haystack | downcase | escape }}">
+      <h3 class="pub-title">{% if p.link.url and p.link.url != "" %}<a href="{{ p.link.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}{% if p.highlight %}<span class="new">New</span>{% endif %}</h3>
+      <p class="pub-authors">{{ p.authors }}</p>
+      <p class="pub-venue">{{ p.venue }}</p>
+      {% include links.html paper=p.link.url code=p.link.code data=p.link.data model=p.link.model demo=p.link.demo %}
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+{%- endfor %}
+
+<section class="split">
+  <span></span>
+  <div>
+    <p class="pub-empty" id="pub-empty">No publications match that search.</p>
+    <p class="pub-note">Earlier work, from 2003 onward, is listed on <a href="https://scholar.google.com/citations?user=E-QpN74AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
+  </div>
+</section>

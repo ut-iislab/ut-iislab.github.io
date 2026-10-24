@@ -1,0 +1,41 @@
+---
+title: "Resources · IIS Lab"
+layout: gridlay
+excerpt: "Open datasets, models, and tools for Persian NLP, speech processing, and information retrieval research"
+sitemap: true
+permalink: /resources/
+---
+{%- comment -%}
+  Rows are generated from _data/resources.yml.
+  The first three datasets also appear under Latest on the home page.
+{%- endcomment -%}
+{%- assign datasets = site.data.resources.datasets -%}
+{%- assign models = site.data.resources.models -%}
+
+<header class="page-head">
+  <h1>Datasets &amp; models</h1>
+  <p class="lede">The corpora, benchmarks and models behind our papers, free for research use. Check each license before commercial use. Code is on <a href="https://github.com/ut-iislab" target="_blank" rel="noopener">GitHub</a>.</p>
+</header>
+
+<section class="split">
+  <p class="label">Datasets &middot; {{ datasets.size }}</p>
+  <ul class="res-list">
+    {%- for r in datasets %}
+    {% include resource-card.html r=r %}
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="split">
+  <p class="label">Models &middot; {{ models.size }}</p>
+  <ul class="res-list">
+    {%- for r in models %}
+    {% include resource-card.html r=r %}
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="split">
+  <p class="label">Citing</p>
+  <p class="pub-note">If you use these resources, please cite the linked paper. BibTeX is on each paper's page and in the Hugging Face dataset cards.</p>
+</section>

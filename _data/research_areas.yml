@@ -1,0 +1,66 @@
+# Research areas: shown as links on the home page and in full on /research/.
+# slug is the anchor; keep 2–3 representative papers per area.
+
+- title: Retrieval models
+  slug: retrieval-models
+  summary: Relevance feedback, query expansion and axiomatic analysis of ranking functions.
+  works:
+    - title: A probabilistic relevance propagation model for hypertext retrieval
+      venue: CIKM 2006
+    - title: Pseudo-relevance feedback based on matrix factorization
+      venue: CIKM 2016
+    - title: Theoretical analysis of interdependent constraints in pseudo-relevance feedback
+      venue: SIGIR 2018
+
+- title: Cross-language retrieval
+  slug: cross-language
+  summary: Persian–English search with comparable corpora, query translation and learning to rank, plus cross-lingual plagiarism detection.
+  works:
+    - title: Mining a Persian–English comparable corpus for cross-language information retrieval
+      venue: IP&M 2014
+    - title: Online learning to rank for cross-language information retrieval
+      venue: SIGIR 2017
+    - title: An axiomatic approach to corpus-based cross-language information retrieval
+      venue: IRJ 2020
+
+- title: Persian NLP
+  slug: persian-nlp
+  summary: Corpora and models for Persian summarization, punctuation restoration and speech.
+  works:
+    - title: "ARMAN: Pre-training with semantically selecting and reordering of sentences for Persian abstractive summarization"
+      venue: EMNLP 2021
+    - title: "PersianPunc: A large-scale dataset and BERT-based approach for Persian punctuation restoration"
+      venue: SilkRoadNLP @ EACL 2026
+    - title: "ParsVoice: A large-scale multi-speaker Persian speech corpus for text-to-speech synthesis"
+      venue: EMNLP 2026
+
+- title: LLM evaluation
+  slug: llm-evaluation
+  summary: Cultural and medical benchmarks for language models in Persian.
+  works:
+    - title: "PerCul: A story-driven cultural evaluation of LLMs in Persian"
+      venue: NAACL 2025
+    - title: "PersianMedQA: Evaluating large language models on a Persian-English bilingual medical question answering benchmark"
+      venue: LREC 2026
+
+- title: Conversational search
+  slug: conversational-search
+  summary: Question retrieval in community QA, expert finding and retrieval-based dialogue.
+  works:
+    - title: Distilling knowledge for fast retrieval-based chat-bots
+      venue: SIGIR 2020
+    - title: A deep learning-based expert finding method to retrieve agile software teams from CQAs
+      venue: IP&M 2023
+    - title: Harnessing the power of metadata for enhanced question retrieval in community question answering
+      venue: IEEE Access 2024
+
+- title: Credibility & social media
+  slug: credibility
+  summary: Fake news, stance and offensive language detection in social and news streams.
+  works:
+    - title: Multi-view co-attention network for fake news detection by modeling topic-specific user and news source credibility
+      venue: IP&M 2023
+    - title: Entity-centric multi-domain transformer for improving generalization in fake news detection
+      venue: IP&M 2024
+    - title: "PolitiSky24: U.S. political Bluesky dataset with user stance labels"
+      venue: Findings of EMNLP 2025

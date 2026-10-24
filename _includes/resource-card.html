@@ -1,0 +1,13 @@
+{%- comment -%}
+  One dataset or model row. Usage: {% include resource-card.html r=item %}
+{%- endcomment -%}
+{%- assign r = include.r -%}
+{%- assign paper_url = "" -%}
+{%- if r.paper and r.paper contains "http" -%}{%- assign paper_url = r.paper -%}{%- endif -%}
+<li class="res">
+  <h3>{{ r.name }}{% if r.venue %}<span class="tag">{{ r.venue }}</span>{% else %}<span class="tag">{{ r.year }}</span>{% endif %}</h3>
+  <p class="res-title">{{ r.title }}</p>
+  <p class="res-desc">{{ r.description }}</p>
+  {%- if r.stats %}<p class="res-stats">{% for s in r.stats %}<span>{{ s.value }} {{ s.label }}</span>{% endfor %}</p>{% endif %}
+  {% include links.html paper=paper_url code=r.code data=r.dataset model=r.model demo=r.demo %}
+</li>

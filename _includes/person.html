@@ -1,0 +1,41 @@
+{%- comment -%}
+  One team member card. Usage: {% include person.html m=member kind="faculty|student|alumni" %}
+{%- endcomment -%}
+{%- assign m = include.m -%}
+{%- assign base = site.url | append: site.baseurl -%}
+{%- assign parts = m.name | split: " " -%}
+{%- capture initials -%}{{ parts.first | slice: 0 }}{% if parts.size > 1 %}{{ parts.last | slice: 0 }}{% endif %}{%- endcapture -%}
+<article class="person{% if include.kind == 'faculty' %} person-lead{% endif %}">
+  <div class="person-photo">
+    {%- if m.photo and m.photo != "" %}
+    <img src="{{ base }}/images/teampic/{{ m.photo }}" alt="Portrait of {{ m.name }}" loading="lazy">
+    {%- else %}
+    <span class="initials" aria-hidden="true">{{ initials }}</span>
+    {%- endif %}
+  </div>
+  <div class="person-body">
+    <h3>{{ m.name }}</h3>
+    {%- if include.kind == "faculty" %}
+    <p class="person-meta">{{ m.info }}{% if m.role %} &middot; {{ m.role }}{% endif %}</p>
+    <p class="person-topic">{% if m.bio %}{{ m.bio }}{% else %}{{ m.affiliate }}{% endif %}</p>
+    {%- if m.education %}
+    <ul class="education">{% for e in m.education %}<li>{{ e }}</li>{% endfor %}</ul>
+    {%- endif %}
+    {%- elsif include.kind == "alumni" %}
+    {%- if m.duration %}<p class="person-meta">{{ m.duration }}</p>{% endif %}
+    {%- if m.current_position and m.current_position != "" %}<p class="person-topic">{{ m.current_position }}</p>{% endif %}
+    {%- else %}
+    {%- if m.duration %}<p class="person-meta">Since {{ m.duration | remove: "-Present" | remove: "-present" }}</p>{% endif %}
+    {%- if m.topic and m.topic != "" %}<p class="person-topic">{{ m.topic }}</p>{% elsif m.info and m.info != "" %}<p class="person-topic">{{ m.info }}</p>{% endif %}
+    {%- endif %}
+    {%- capture icons -%}
+      {%- if m.url.personal_site and m.url.personal_site != "" -%}<li><a href="{{ m.url.personal_site }}" target="_blank" rel="noopener" aria-label="{{ m.name }}: website"><i class="fa-solid fa-house" aria-hidden="true"></i></a></li>{%- endif -%}
+      {%- if m.url.google_scholar and m.url.google_scholar != "" -%}<li><a href="{{ m.url.google_scholar }}" target="_blank" rel="noopener" aria-label="{{ m.name }}: Google Scholar"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></a></li>{%- endif -%}
+      {%- if m.url.github and m.url.github != "" -%}<li><a href="{{ m.url.github }}" target="_blank" rel="noopener" aria-label="{{ m.name }}: GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>{%- endif -%}
+      {%- if m.url.linkedin and m.url.linkedin != "" -%}<li><a href="{{ m.url.linkedin }}" target="_blank" rel="noopener" aria-label="{{ m.name }}: LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>{%- endif -%}
+    {%- endcapture -%}
+    {%- if icons != "" %}
+    <ul class="icon-links">{{ icons }}</ul>
+    {%- endif %}
+  </div>
+</article>

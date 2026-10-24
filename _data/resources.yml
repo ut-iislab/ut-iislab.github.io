@@ -1,40 +1,67 @@
+# Optional fields per entry: venue, paper, dataset, code, model, demo, stats (list of {value, label}).
 datasets:
   - name: ParsVoice
     title: "A Large-Scale Multi-Speaker Persian Speech Corpus for Text-to-Speech Synthesis"
-    description: "The largest Persian speech corpus designed specifically for TTS applications, featuring 1,804 hours of high-quality speech from 470+ speakers."
-    year: 2024
+    description: "The largest Persian speech corpus built for TTS: audiobook speech aligned to text by an automated pipeline, with a BERT-based sentence-completion detector and binary-search boundary optimization. A fine-tuned XTTSv2 model reaches 3.6/5 naturalness MOS and 4.0/5 speaker-similarity MOS."
+    year: 2026
+    venue: EMNLP 2026 Main
+    featured: true
+    stats:
+      - value: "2,178"
+        label: hours of speech
+      - value: "1.36M"
+        label: aligned segments
+      - value: "1,803"
+        label: speakers
     paper: https://arxiv.org/abs/2510.10774
     dataset: https://huggingface.co/datasets/MohammadJRanjbar/ParsVoice
+    code: https://github.com/MohammadJRanjbar/ParsVoice
+    model: https://huggingface.co/MohammadJRanjbar/ParsVoice-XTTS
     demo: https://mohammadjranjbar.github.io/ParsVoice/
-    
+
   - name: PersianPunc
-    title: "A Corpus for Persian Punctuation Restoration"
-    description: "A comprehensive dataset for Persian punctuation restoration, enabling models to accurately restore punctuation marks in unpunctuated Persian text."
-    year: 2025
-    paper: "Accepted at SilkRoad NLP Workshop @ EACL 2025"
+    title: "A Large-Scale Dataset for Persian Punctuation Restoration"
+    description: "17 million Persian samples for punctuation restoration, released with a fine-tuned ParsBERT token-classification model (91.33% macro-F1) that restores punctuation without rewriting the text, unlike LLMs, which tend to over-correct."
+    year: 2026
+    venue: SilkRoadNLP @ EACL 2026
+    stats:
+      - value: "17M"
+        label: samples
+      - value: "91.3"
+        label: macro-F1
+    paper: https://aclanthology.org/2026.silkroadnlp-1.11/
     dataset: https://huggingface.co/datasets/MohammadJRanjbar/PersianPunc
-    
+    model: https://huggingface.co/MohammadJRanjbar/parsbert-persian-punctuation
+
+  - name: PersianMedQA
+    title: "A Persian-English Bilingual Medical QA Benchmark for LLMs"
+    description: "20,785 expert-validated multiple-choice questions from 14 years of Iranian medical exams across 23 specialties, in Persian and English, with 41 LLMs evaluated."
+    year: 2026
+    venue: LREC 2026
+    stats:
+      - value: "20,785"
+        label: questions
+      - value: "23"
+        label: specialties
+    paper: https://aclanthology.org/2026.lrec-1.342/
+    dataset: https://huggingface.co/datasets/MohammadJRanjbar/PersianMedQA
+
   - name: PerCul
     title: "A Story-Driven Cultural Evaluation of LLMs in Persian"
     description: "Dataset designed to assess cultural sensitivity of LLMs toward Persian culture through story-based, multiple-choice questions."
     year: 2025
+    venue: NAACL 2025
     paper: https://aclanthology.org/2025.naacl-long.702/
     dataset: https://huggingface.co/datasets/teias-ai/percul
-    
+
   - name: PolitiSky24
     title: "U.S. Political Bluesky Dataset with User Stance Labels"
     description: "First-of-its-kind dataset for stance detection on Bluesky, focused on the 2024 U.S. presidential election. Contains 16,044 user-target stance pairs with detailed metadata."
     year: 2025
+    venue: Findings of EMNLP 2025
     paper: https://arxiv.org/abs/2506.07606
     dataset: https://zenodo.org/records/14671773
-    
-  - name: PersianMedQA
-    title: "Evaluating Large Language Models on a Persian-English Bilingual Medical Question Answering Benchmark"
-    description: "Comprehensive evaluation dataset for assessing LLM performance in Persian medical domain, with parallel English translations."
-    year: 2025
-    paper: https://arxiv.org/abs/2506.00250
-    dataset: https://huggingface.co/datasets/MohammadJRanjbar/PersianMedQA
-    
+
   - name: Persian Offensive Language Dataset
     title: "Hate Speech and Offensive Language Detection"
     description: "Dataset of 38K Persian tweets containing hate and offensive language, manually annotated with bias measurement metrics."
@@ -42,9 +69,27 @@ datasets:
     paper: https://link.springer.com/article/10.1007/s10994-023-06370-5
 
 models:
+  - name: ParsVoice-XTTS
+    title: "Multi-Speaker Persian Text-to-Speech"
+    description: "XTTSv2 fine-tuned on ParsVoice for multi-speaker Persian speech synthesis with voice cloning."
+    year: 2026
+    venue: EMNLP 2026 Main
+    paper: https://arxiv.org/abs/2510.10774
+    model: https://huggingface.co/MohammadJRanjbar/ParsVoice-XTTS
+    code: https://github.com/MohammadJRanjbar/ParsVoice
+
+  - name: ParsBERT Punctuation
+    title: "Persian Punctuation Restoration Model"
+    description: "ParsBERT fine-tuned as a token classifier on PersianPunc to restore punctuation in raw Persian text."
+    year: 2026
+    venue: SilkRoadNLP @ EACL 2026
+    paper: https://aclanthology.org/2026.silkroadnlp-1.11/
+    model: https://huggingface.co/MohammadJRanjbar/parsbert-persian-punctuation
+
   - name: ARMAN
     title: "Pre-trained Model for Persian Abstractive Summarization"
     description: "Transformer-based encoder-decoder model achieving state-of-the-art performance on Persian summarization tasks."
     year: 2021
+    venue: EMNLP 2021
     paper: https://aclanthology.org/2021.emnlp-main.741/
     code: https://github.com/alirezasalemi7/ARMAN

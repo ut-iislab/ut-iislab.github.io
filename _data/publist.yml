@@ -1,41 +1,57 @@
-# 2026
-- title: "PersianPunc: A Large-Scale Dataset and BERT-Based Approach for Persian Punctuation Restoration"
-  year: 2026
-  authors: M.J. Ranjbar Kalahroodi, A. Shakery, H. Faili
-  venue: SilkRoadNLP (EACL Workshop)
-  link:
-    url:  
-    code:  
+# Fields: venue_type is one of conference | workshop | journal | preprint | patent.
+# Optional links: url (paper), code, data, model, demo. Set highlight: true to badge a paper.
 
-# 2025
+# 2026
 - title: "ParsVoice: A Large-Scale Multi-Speaker Persian Speech Corpus for Text-to-Speech Synthesis"
-  year: 2025
+  year: 2026
   authors: M.J. Ranjbar Kalahroodi, H. Faili, A. Shakery
-  venue: arXiv preprint arXiv:2510.10774
+  venue: EMNLP 2026 (Main Conference)
+  venue_type: conference
+  highlight: true
   link:
     url: https://arxiv.org/abs/2510.10774
+    code: https://github.com/MohammadJRanjbar/ParsVoice
+    data: https://huggingface.co/datasets/MohammadJRanjbar/ParsVoice
+    model: https://huggingface.co/MohammadJRanjbar/ParsVoice-XTTS
+    demo: https://mohammadjranjbar.github.io/ParsVoice/
+
+- title: "PersianPunc: A Large-Scale Dataset and BERT-Based Approach for Persian Punctuation Restoration"
+  year: 2026
+  authors: M.J. Ranjbar Kalahroodi, H. Faili, A. Shakery
+  venue: SilkRoadNLP Workshop @ EACL 2026
+  venue_type: workshop
+  link:
+    url: https://aclanthology.org/2026.silkroadnlp-1.11/
+    code:
+    data: https://huggingface.co/datasets/MohammadJRanjbar/PersianPunc
+    model: https://huggingface.co/MohammadJRanjbar/parsbert-persian-punctuation
+
+- title: "PersianMedQA: Evaluating Large Language Models on a Persian-English Bilingual Medical Question Answering Benchmark"
+  year: 2026
+  authors: M.J. Ranjbar Kalahroodi, A. Sheikholselami, S. Karimi Arpanahi, S. Ranjbar Kalahroodi, H. Faili, A. Shakery
+  venue: LREC 2026
+  venue_type: conference
+  link:
+    url: https://aclanthology.org/2026.lrec-1.342/
     code:  
+    data: https://huggingface.co/datasets/MohammadJRanjbar/PersianMedQA
+
+# 2025
 
 - title: "PolitiSky24: US Political Bluesky Dataset with User Stance Labels"
   year: 2025
   authors: P. Rostami, V. Rahimzadeh, A. Adibi, A. Shakery
-  venue: arXiv preprint arXiv:2506.07606
+  venue: Findings of EMNLP 2025
+  venue_type: conference
   link:
     url: https://arxiv.org/abs/2506.07606
-    code:  
-
-- title: "PersianMedQA: Evaluating Large Language Models on a Persian-English Bilingual Medical Question Answering Benchmark"
-  year: 2025
-  authors: M.J. Ranjbar Kalahroodi, A. Sheikholselami, S. Karimi, S.R. Kalahroodi, H. Faili, A. Shakery
-  venue: arXiv preprint arXiv:2506.00250
-  link:
-    url: https://arxiv.org/abs/2506.00250
     code:  
 
 - title: "From Millions of Tweets to Actionable Insights: Leveraging LLMs for User Profiling"
   year: 2025
   authors: V. Rahimzadeh, A. Hamzehpour, A. Shakery, M. Asadpour
   venue: arXiv preprint arXiv:2505.06184
+  venue_type: preprint
   link:
     url: https://arxiv.org/abs/2505.06184
     code:  
@@ -43,16 +59,19 @@
 - title: "PERCUL: A Story-Driven Cultural Evaluation of LLMs in Persian"
   year: 2025
   authors: E.M. Monazzah, V. Rahimzadeh, Y. Yaghoobzadeh, A. Shakery, M.T. Pilehvar
-  venue: arXiv preprint arXiv:2502.07459
+  venue: NAACL 2025 (Main Conference)
+  venue_type: conference
   link:
-    url: https://arxiv.org/abs/2502.07459
-    code:  
+    url: https://aclanthology.org/2025.naacl-long.702/
+    code:
+    data: https://huggingface.co/datasets/teias-ai/percul
 
 # 2024
 - title: "QEQR: An Exploration of Query Expansion Methods for Question Retrieval in CQA Services"
   year: 2024
   authors: Y. Ghafourian, S. Movahedi, A. Shakery
   venue: arXiv preprint arXiv:2411.15530
+  venue_type: preprint
   link:
     url: https://arxiv.org/abs/2411.15530
     code:  
@@ -61,6 +80,7 @@
   year: 2024
   authors: P. Bazmi, M. Asadpour, A. Shakery, A. Maazallahi
   venue: Information Processing & Management 61(5), 103807
+  venue_type: journal
   link:
     url: https://www.sciencedirect.com/science/article/pii/S0306457324001183
     code:  
@@ -69,6 +89,7 @@
   year: 2024
   authors: E. Kebriaei, A. Homayouni, R. Faraji, A. Razavi, A. Shakery, H. Faili, B. Bahrak
   venue: Machine Learning 113(7), 4359-4379
+  venue_type: journal
   link:
     url: https://link.springer.com/article/10.1007/s10994-024-06541-9
     code:  
@@ -77,6 +98,7 @@
   year: 2024
   authors: S. Ghasemi, A. Shakery
   venue: IEEE Access 12, 65768-65779
+  venue_type: journal
   link:
     url: https://ieeexplore.ieee.org/document/10530806
     code:  
@@ -85,6 +107,7 @@
   year: 2024
   authors: H. Asghari, A. Shakery
   venue: Roshd-e-Fanavari 1(77), 24
+  venue_type: journal
   link:
     url:  
     code:  
@@ -94,6 +117,7 @@
   year: 2023
   authors: A. Salemi, A. Abaskohi, S. Tavakoli, A. Shakery, Y. Yaghoobzadeh
   venue: Proceedings of the Sixth Workshop on Technologies for Machine Translation of Low-Resource Languages
+  venue_type: workshop
   link:
     url: https://aclanthology.org/2023.americasnlp-1.19/
     code:  
@@ -102,6 +126,7 @@
   year: 2023
   authors: P. Rostami, A. Shakery
   venue: Information Processing & Management 60(2), 103144
+  venue_type: journal
   link:
     url: https://www.sciencedirect.com/science/article/pii/S0306457322002515
     code:  
@@ -110,6 +135,7 @@
   year: 2023
   authors: S. Karimi, A. Shakery, R.M. Verma
   venue: Natural Language Engineering 29(2), 181-200
+  venue_type: journal
   link:
     url: https://www.cambridge.org/core/journals/natural-language-engineering/article/enhancement-of-twitter-event-detection-using-news-streams/8B0E5F5F5E5E5E5E5E5E5E5E5E5E5E5E
     code:  
@@ -118,6 +144,7 @@
   year: 2023
   authors: P. Bazmi, M. Asadpour, A. Shakery
   venue: Information Processing & Management 60(1), 103146
+  venue_type: journal
   link:
     url: https://www.sciencedirect.com/science/article/pii/S0306457322002527
     code:  
@@ -127,6 +154,7 @@
   year: 2022
   authors: S. Movahedi, A. Shakery
   venue: arXiv preprint arXiv:2211.09728
+  venue_type: preprint
   link:
     url: https://arxiv.org/abs/2211.09728
     code:  
@@ -135,6 +163,7 @@
   year: 2022
   authors: S. Movahedi, M. Adabinejad, A. Imani, A. Keshavarz, M. Dehghani, A. Shakery
   venue: arXiv preprint arXiv:2210.07998
+  venue_type: preprint
   link:
     url: https://arxiv.org/abs/2210.07998
     code:  
@@ -143,6 +172,7 @@
   year: 2022
   authors: E. Ghanbari, A. Shakery
   venue: Applied Intelligence 52(3), 3156-3174
+  venue_type: journal
   link:
     url: https://link.springer.com/article/10.1007/s10489-021-02534-5
     code:  
@@ -152,6 +182,7 @@
   year: 2021
   authors: A. Salemi, E. Kebriaei, G.N. Minaei, A. Shakery
   venue: arXiv preprint arXiv:2109.04098
+  venue_type: preprint
   link:
     url: https://arxiv.org/abs/2109.04098
     code:  
@@ -160,6 +191,7 @@
   year: 2021
   authors: P. Berangi, Z. Mousavi, H. Faili, A. Shakery
   venue: Digital Scholarship in the Humanities 36(3), 565-580
+  venue_type: journal
   link:
     url: https://academic.oup.com/dsh/article/36/3/565/5943563
     code:  
@@ -168,6 +200,7 @@
   year: 2021
   authors: S. Karimi, A. Shakery, R. Verma
   venue: Journal of Information Science 47(3), 340-358
+  venue_type: journal
   link:
     url: https://journals.sagepub.com/doi/10.1177/0165551519887823
     code:  
@@ -176,6 +209,7 @@
   year: 2021
   authors: H. Basafa, S. Movahedi, A. Ebrahimi, A. Shakery, H. Faili
   venue: arXiv preprint arXiv:2105.03775
+  venue_type: preprint
   link:
     url: https://arxiv.org/abs/2105.03775
     code:  
@@ -184,6 +218,7 @@
   year: 2021
   authors: A. Salemi, N. Sabri, E. Kebriaei, B. Bahrak, A. Shakery
   venue: arXiv preprint arXiv:2104.04770
+  venue_type: preprint
   link:
     url: https://arxiv.org/abs/2104.04770
     code:  
@@ -193,6 +228,7 @@
   year: 2020
   authors: A. Vakili Tahami, K. Ghajar, A. Shakery
   venue: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval
+  venue_type: conference
   link:
     url: https://dl.acm.org/doi/10.1145/3397271.3401325
     code:  
@@ -201,6 +237,7 @@
   year: 2020
   authors: R. Rahimi, A. Montazeralghaem, A. Shakery
   venue: Information Retrieval Journal 23(3), 191-215
+  venue_type: journal
   link:
     url: https://link.springer.com/article/10.1007/s10791-020-09373-z
     code:  
@@ -209,6 +246,7 @@
   year: 2020
   authors: M. Raeesi, M. Asadpour, A. Shakery
   venue: Expert Systems with Applications 147, 113115
+  venue_type: journal
   link:
     url: https://www.sciencedirect.com/science/article/pii/S0957417420300270
     code:  
@@ -217,6 +255,7 @@
   year: 2020
   authors: S.A. Tabrizi, A. Shakery, M.A. Tavallaei, J. Dadashkarimi
   venue: US Patent 10,540,399
+  venue_type: patent
   link:
     url: https://patents.google.com/patent/US10540399B2/en
     code:

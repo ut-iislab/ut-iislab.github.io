@@ -64,9 +64,9 @@ If you want to change the website structure (e.g., rearrange image position, tea
 | What to update | Where to update                                  |
 | :------------- | :----------------------------------------------- |
 | home page      | `_layouts/default.html`, `_layouts/homelay.html` |
-| news           | `_pages/allnews.md`, `_includes/news.html`       |
-| team           | `_pages/team.md`                                 |
-| publications   | `_pages/publications.md`                         |
+| news           | `_pages/allnews.html`, `_includes/news.html`     |
+| team           | `_pages/team.html`, `_includes/person.html`      |
+| publications   | `_pages/publications.html`                       |
 | projects       | `_pages/projects.md`                             |
 | header         | `_includes/header.html`                          |
 | footer         | `_includes/footer.html`                          |
@@ -84,3 +84,15 @@ For more information about our research and publications, please visit our websi
 ## Acknowledgement
 This website template is adapted from [Allan Lab](http://www.allanlab.org/aboutwebsite.html). 
 Thanks for open-sourcing the template.
+
+### Design
+
+A minimal layout in white, ink and University of Tehran navy, set in IBM Plex Sans and Vazirmatn. The home page shows the lab's English and Persian names linked word by word, then short sections. Every section uses the same label-left, content-right grid.
+
+| What to update | Where |
+| :-- | :-- |
+| intro text on the home page | `_pages/home.md` |
+| research areas and representative papers (home + `/research/`) | `_data/research_areas.yml` |
+| Latest (first three datasets) and the Resources page | `_data/resources.yml` |
+| colors, fonts, dark mode | `_sass/iis/_tokens.scss` |
+| menu, dark-mode toggle, name-alignment lines, publication search | `js/site.js` |

@@ -3,6 +3,10 @@
   info: Associate Professor
   affiliate: University of Tehran
   role: Lab Director
+  bio: Her research is in text information management, covering retrieval models and relevance feedback, cross-language retrieval and Persian NLP.
+  education:
+    - PhD in Computer Science, University of Illinois at Urbana-Champaign, 2008. Dissertation on probabilistic score propagation in information retrieval
+    - M.Sc. and B.Sc. in Computer Engineering, Sharif University of Technology
   url:
     personal_site: https://ece.ut.ac.ir/en/~shakery
     google_scholar: https://scholar.google.com/citations?user=E-QpN74AAAAJ&hl=en

@@ -1,15 +1,70 @@
 ---
 layout: default
 ---
+{%- comment -%}
+  Home page. The intro text comes from _pages/home.md; the sections come from
+  _data/news.yml, research_areas.yml and resources.yml.
+{%- endcomment -%}
+{%- assign base = site.url | append: site.baseurl -%}
 
-  <div id="homeid" class="col-sm-12">
-  <h1>Welcome to the UT IIS Group</h1>
+<section class="wrap hero" aria-labelledby="lab-title">
+  <figure class="align-fig" id="align-fig">
+    <h1 class="align-en" id="lab-title">
+      <span data-a="1">Intelligent</span>
+      <span data-a="2">Information</span>
+      <span data-a="3">Systems</span>
+      <span data-a="4">Lab</span>
+    </h1>
+    <svg class="align-lines" aria-hidden="true" focusable="false"></svg>
+    <p class="align-fa" lang="fa" dir="rtl">
+      <span data-a="4">آزمایشگاه</span>
+      <span data-a="3">سیستم‌های</span>
+      <span data-a="1">هوشمند</span>
+      <span data-a="2">اطلاعات</span>
+    </p>
+  </figure>
 
-	{{ content }}
+  <div class="hero-text">
+    <p class="label">University of Tehran &middot; School of ECE</p>
+    <div class="hero-lede">{{ content }}</div>
+    <div class="hero-actions">
+      <a class="btn btn-solid" href="{{ base }}/publications/">Publications <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      <a class="btn btn-line" href="{{ base }}/resources/">Datasets &amp; models</a>
+    </div>
   </div>
-  <br />
-  <div id="newsid" class="col-sm-12" >
-	{% include news.html %}
-  <br>
-  <br>
-  </div>
+</section>
+
+<div class="wrap">
+  <section class="split" aria-label="News">
+    <p class="label">News<a class="split-more" href="{{ base }}/allnews.html">All news &rarr;</a></p>
+    <div>{% include news.html limit=5 %}</div>
+  </section>
+
+  <section class="split" aria-label="Research">
+    <p class="label">Research<a class="split-more" href="{{ base }}/research/">Representative papers &rarr;</a></p>
+    <ul class="areas">
+      {%- for a in site.data.research_areas %}
+      <li><a href="{{ base }}/research/#{{ a.slug }}"><h3>{{ a.title }}</h3></a><p>{{ a.summary }}</p></li>
+      {%- endfor %}
+    </ul>
+  </section>
+
+  <section class="split" aria-label="Latest releases">
+    <p class="label">Latest releases<a class="split-more" href="{{ base }}/resources/">All resources &rarr;</a></p>
+    <ul class="rows">
+      {%- for r in site.data.resources.datasets limit: 3 %}
+      {%- assign paper_url = "" -%}
+      {%- if r.paper and r.paper contains "http" -%}{%- assign paper_url = r.paper -%}{%- endif %}
+      <li>
+        <span class="when">{{ r.venue | default: r.year }}</span>
+        <div>
+          <h3>{{ r.name }}</h3>
+          <p>{{ r.title }}</p>
+          {%- if r.stats %}<p class="meta">{% for s in r.stats %}{{ s.value }} {{ s.label }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>{% endif %}
+          {% include links.html paper=paper_url code=r.code data=r.dataset model=r.model demo=r.demo %}
+        </div>
+      </li>
+      {%- endfor %}
+    </ul>
+  </section>
+</div>

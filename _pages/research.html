@@ -1,0 +1,28 @@
+---
+title: "Research · IIS Lab"
+layout: gridlay
+excerpt: "Research areas of the Intelligent Information Systems Lab, University of Tehran, with representative papers."
+sitemap: true
+permalink: /research/
+---
+{%- comment -%}
+  Generated from _data/research_areas.yml.
+{%- endcomment -%}
+<header class="page-head">
+  <h1>Research</h1>
+  <p class="lede">Our work centers on text information management: how people search for and understand text, in Persian and across languages. Representative papers are listed under each area; see <a href="{{ site.url }}{{ site.baseurl }}/publications/">Publications</a> for the full list.</p>
+</header>
+
+{%- for a in site.data.research_areas %}
+<section class="split area" id="{{ a.slug }}">
+  <h2>{{ a.title }}</h2>
+  <div>
+    <p class="area-summary">{{ a.summary }}</p>
+    <ul class="works">
+      {%- for w in a.works %}
+      <li><span>{{ w.title }}</span><span class="venue">{{ w.venue }}</span></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+{%- endfor %}

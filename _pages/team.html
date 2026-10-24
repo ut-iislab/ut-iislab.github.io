@@ -1,0 +1,28 @@
+---
+title: "Team · IIS Lab"
+layout: gridlay
+excerpt: "Faculty, students and alumni of the Intelligent Information Systems Lab, University of Tehran."
+sitemap: true
+permalink: /team/
+---
+{%- comment -%}
+  Members come from the _data/*_members.yml and *_students.yml files.
+  Empty files are hidden automatically.
+{%- endcomment -%}
+{%- assign phd = site.data.phd_students -%}
+{%- assign msc = site.data.master_students -%}
+{%- assign bsc = site.data.bachelor_students -%}
+{%- assign postdoc = site.data.postdoc_students -%}
+{%- assign alumni = site.data.alumni_members -%}
+
+<header class="page-head">
+  <h1>People</h1>
+  <p class="lede">{% if phd %}{{ phd.size }} PhD students, {% endif %}{% if msc %}{{ msc.size }} master's students{% endif %}{% if alumni %}, and {{ alumni.size }} alumni now in industry and academia{% endif %}.</p>
+</header>
+
+{% include team-section.html id="faculty" title="Director" members=site.data.faculty_members kind="faculty" %}
+{% include team-section.html id="postdoc" title="Postdocs" members=postdoc kind="student" %}
+{% include team-section.html id="phd" title="PhD students" members=phd kind="student" %}
+{% include team-section.html id="masters" title="Master's students" members=msc kind="student" %}
+{% include team-section.html id="bachelors" title="Bachelor's students" members=bsc kind="student" %}
+{% include team-section.html id="alumni" title="Alumni" members=alumni kind="alumni" %}
