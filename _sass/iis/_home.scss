@@ -81,6 +81,12 @@
   .align-lines path.is-active { opacity: 1; stroke-width: 2; }
 }
 
+.affil {
+  margin: 0 0 1.25rem;
+  .affil-logo { height: 56px; width: auto; margin: 0 0 0.6rem; }
+  .label { margin: 0; }
+}
+
 .hero-lede {
   max-width: 52ch;
   font-size: 1.05rem;
