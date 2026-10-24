@@ -20,13 +20,10 @@
     });
   }
 
-  // ---- Theme toggle (light / dark, remembered per browser) ----
+  // ---- Theme toggle (light by default; dark is remembered per browser) ----
   var root = document.documentElement;
-  var media = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
   function currentTheme() {
-    var t = root.getAttribute('data-theme');
-    if (t) return t;
-    return media && media.matches ? 'dark' : 'light';
+    return root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
   }
   var themeBtn = document.querySelector('.theme-toggle');
   if (themeBtn) {

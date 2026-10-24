@@ -16,7 +16,7 @@
 .btn-solid {
   background: var(--brand);
   color: var(--brand-ink);
-  &:hover { background: var(--link); color: #fff; }
+  &:hover { background: var(--brand-hover); color: var(--brand-ink); }
 }
 .btn-line {
   border-color: var(--line-2);
@@ -57,7 +57,7 @@
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--mark);
-  &::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  &::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--mark-dot); }
 }
 
 .icon-links {

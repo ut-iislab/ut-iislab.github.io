@@ -52,7 +52,7 @@ datasets:
     description: "Dataset designed to assess cultural sensitivity of LLMs toward Persian culture through story-based, multiple-choice questions."
     year: 2025
     venue: NAACL 2025
-    paper: https://aclanthology.org/2025.naacl-long.702/
+    paper: https://aclanthology.org/2025.naacl-long.631/
     dataset: https://huggingface.co/datasets/teias-ai/percul
 
   - name: PolitiSky24
@@ -60,8 +60,8 @@ datasets:
     description: "First-of-its-kind dataset for stance detection on Bluesky, focused on the 2024 U.S. presidential election. Contains 16,044 user-target stance pairs with detailed metadata."
     year: 2025
     venue: Findings of EMNLP 2025
-    paper: https://arxiv.org/abs/2506.07606
-    dataset: https://zenodo.org/records/14671773
+    paper: https://aclanthology.org/2025.findings-emnlp.1198/
+    dataset: https://doi.org/10.5281/zenodo.15616911
 
   - name: Persian Offensive Language Dataset
     title: "Hate Speech and Offensive Language Detection"

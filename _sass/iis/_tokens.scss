@@ -1,22 +1,25 @@
-// Design tokens: white, ink and University of Tehran navy, with UT azure
-// for links. Colors and fluid sizes live in custom properties so the
+// Design tokens: white and ink with the University of Tehran logo blue
+// (#00a0e3) for the logo and accents, a deeper shade for links and buttons. Colors and fluid sizes live in custom properties so the
 // GitHub Pages Sass compiler (Ruby Sass 3.7) passes them through untouched.
 
 :root {
   --bg: #ffffff;
-  --bg-2: #f4f6f9;
-  --text: #0b1220;
-  --text-2: #465062;
-  --text-3: #7b8394;
-  --line: #e5e8ee;
-  --line-2: #cfd5de;
+  --bg-2: #f2f8fc;
+  --text: #0b1b2e;
+  --text-2: #43546a;
+  --text-3: #6b7a8c;
+  --line: #dde6ee;
+  --line-2: #c5d2de;
 
-  --brand: #0d2b67;       // UT navy (ut.ac.ir)
+  --ut: #00a0e3;          // University of Tehran logo blue: logo, accents
+  --brand: #0068a8;       // deeper UT blue: buttons, active nav, tags
+  --brand-hover: #004f80;
   --brand-ink: #ffffff;
-  --brand-soft: #eaf0fa;
-  --link: #0a58d0;        // UT azure, darkened for contrast on white
-  --link-hover: #0d2b67;
-  --mark: #b3141b;        // UT maroon-red, used only for "new"
+  --brand-soft: #eaf6fc;
+  --link: #0068a8;
+  --link-hover: #004f80;
+  --mark: #a86700;        // saffron, used only for "new"
+  --mark-dot: #e89b0c;
 
   --header-bg: rgba(255, 255, 255, 0.92);
 
@@ -33,25 +36,26 @@
 }
 
 @mixin dark-tokens {
-  --bg: #0a0f1a;
-  --bg-2: #121a2a;
-  --text: #e9edf4;
-  --text-2: #b1b9c7;
-  --text-3: #7f8899;
-  --line: #1e2738;
-  --line-2: #2e3a50;
+  --bg: #0a1522;
+  --bg-2: #10202f;
+  --text: #e7eef5;
+  --text-2: #a9b8c7;
+  --text-3: #7d8d9e;
+  --line: #1c2c3d;
+  --line-2: #2b3f54;
 
-  --brand: #9db8ff;
-  --brand-ink: #0a0f1a;
-  --brand-soft: #16223c;
-  --link: #82b1ff;
-  --link-hover: #c0d6ff;
-  --mark: #ff6b6b;
+  --ut: #00a0e3;
+  --brand: #5cc2ef;
+  --brand-hover: #8fd5f4;
+  --brand-ink: #06121e;
+  --brand-soft: #0f2a3d;
+  --link: #6ccaf2;
+  --link-hover: #a3def7;
+  --mark: #f2b23a;
+  --mark-dot: #f2b23a;
 
-  --header-bg: rgba(10, 15, 26, 0.9);
+  --header-bg: rgba(10, 21, 34, 0.9);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) { @include dark-tokens; }
-}
-:root[data-theme="dark"] { @include dark-tokens; }
+// Light is the default; dark mode applies only after the visitor toggles it.
+:root[data-theme="dark"] { @include dark-tokens; color-scheme: dark; }

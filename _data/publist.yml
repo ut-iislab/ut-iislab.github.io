@@ -38,31 +38,32 @@
 
 # 2025
 
-- title: "PolitiSky24: US Political Bluesky Dataset with User Stance Labels"
+- title: "PolitiSky24: U.S. Political Bluesky Dataset with User Stance Labels"
   year: 2025
   authors: P. Rostami, V. Rahimzadeh, A. Adibi, A. Shakery
   venue: Findings of EMNLP 2025
   venue_type: conference
   link:
-    url: https://arxiv.org/abs/2506.07606
+    url: https://aclanthology.org/2025.findings-emnlp.1198/
+    data: https://doi.org/10.5281/zenodo.15616911
     code:  
 
 - title: "From Millions of Tweets to Actionable Insights: Leveraging LLMs for User Profiling"
   year: 2025
   authors: V. Rahimzadeh, A. Hamzehpour, A. Shakery, M. Asadpour
-  venue: arXiv preprint arXiv:2505.06184
-  venue_type: preprint
+  venue: MisD Workshop @ AAAI ICWSM 2025
+  venue_type: workshop
   link:
     url: https://arxiv.org/abs/2505.06184
     code:  
 
-- title: "PERCUL: A Story-Driven Cultural Evaluation of LLMs in Persian"
+- title: "PerCul: A Story-Driven Cultural Evaluation of LLMs in Persian"
   year: 2025
   authors: E.M. Monazzah, V. Rahimzadeh, Y. Yaghoobzadeh, A. Shakery, M.T. Pilehvar
   venue: NAACL 2025 (Main Conference)
   venue_type: conference
   link:
-    url: https://aclanthology.org/2025.naacl-long.702/
+    url: https://aclanthology.org/2025.naacl-long.631/
     code:
     data: https://huggingface.co/datasets/teias-ai/percul
 
@@ -82,16 +83,16 @@
   venue: Information Processing & Management 61(5), 103807
   venue_type: journal
   link:
-    url: https://www.sciencedirect.com/science/article/pii/S0306457324001183
+    url: https://doi.org/10.1016/j.ipm.2024.103807
     code:  
 
 - title: "Persian offensive language detection"
   year: 2024
-  authors: E. Kebriaei, A. Homayouni, R. Faraji, A. Razavi, A. Shakery, H. Faili, B. Bahrak
+  authors: E. Kebriaei, A. Homayouni, R. Faraji, A. Razavi, A. Shakery, H. Faili, Y. Yaghoobzadeh
   venue: Machine Learning 113(7), 4359-4379
   venue_type: journal
   link:
-    url: https://link.springer.com/article/10.1007/s10994-024-06541-9
+    url: https://link.springer.com/article/10.1007/s10994-023-06370-5
     code:  
 
 - title: "Harnessing the power of metadata for enhanced question retrieval in community question answering"
@@ -100,26 +101,26 @@
   venue: IEEE Access 12, 65768-65779
   venue_type: journal
   link:
-    url: https://ieeexplore.ieee.org/document/10530806
+    url: https://doi.org/10.1109/ACCESS.2024.3395449
     code:  
 
 - title: "On the use of Intelligent Information Retrieval in Patent Prior-Art Search"
   year: 2024
   authors: H. Asghari, A. Shakery
-  venue: Roshd-e-Fanavari 1(77), 24
+  venue: Roshd-e-Fanavari 20(77), 24-32
   venue_type: journal
   link:
-    url:  
+    url: https://doi.org/10.61186/jstpi.44174.20.77.24
     code:  
 
 # 2023
 - title: "PEACH: Pre-Training Sequence-to-Sequence Multilingual Models for Translation with Semi-Supervised Pseudo-Parallel Document Generation"
   year: 2023
   authors: A. Salemi, A. Abaskohi, S. Tavakoli, A. Shakery, Y. Yaghoobzadeh
-  venue: Proceedings of the Sixth Workshop on Technologies for Machine Translation of Low-Resource Languages
+  venue: LoResMT Workshop @ EACL 2023
   venue_type: workshop
   link:
-    url: https://aclanthology.org/2023.americasnlp-1.19/
+    url: https://aclanthology.org/2023.loresmt-1.3/
     code:  
 
 - title: "A deep learning-based expert finding method to retrieve agile software teams from CQAs"
@@ -128,7 +129,7 @@
   venue: Information Processing & Management 60(2), 103144
   venue_type: journal
   link:
-    url: https://www.sciencedirect.com/science/article/pii/S0306457322002515
+    url: https://doi.org/10.1016/j.ipm.2022.103144
     code:  
 
 - title: "Enhancement of Twitter event detection using news streams"
@@ -137,7 +138,7 @@
   venue: Natural Language Engineering 29(2), 181-200
   venue_type: journal
   link:
-    url: https://www.cambridge.org/core/journals/natural-language-engineering/article/enhancement-of-twitter-event-detection-using-news-streams/8B0E5F5F5E5E5E5E5E5E5E5E5E5E5E5E
+    url: https://doi.org/10.1017/S1351324921000462
     code:  
 
 - title: "Multi-view co-attention network for fake news detection by modeling topic-specific user and news source credibility"
@@ -146,27 +147,27 @@
   venue: Information Processing & Management 60(1), 103146
   venue_type: journal
   link:
-    url: https://www.sciencedirect.com/science/article/pii/S0306457322002527
+    url: https://doi.org/10.1016/j.ipm.2022.103146
     code:  
 
 # 2022
 - title: "Generative Adversarial Training Can Improve Neural Language Models"
   year: 2022
   authors: S. Movahedi, A. Shakery
-  venue: arXiv preprint arXiv:2211.09728
+  venue: Poster at EEML Summer School 2019 (arXiv:2211.09728)
   venue_type: preprint
   link:
     url: https://arxiv.org/abs/2211.09728
     code:  
 
-- title: "α-DARTS: Mitigating Performance Collapse by Harmonizing Operation Selection among Cells"
-  year: 2022
-  authors: S. Movahedi, M. Adabinejad, A. Imani, A. Keshavarz, M. Dehghani, A. Shakery
-  venue: arXiv preprint arXiv:2210.07998
-  venue_type: preprint
+- title: "Λ-DARTS: Mitigating Performance Collapse by Harmonizing Operation Selection among Cells"
+  year: 2023
+  authors: S. Movahedi, M. Adabinejad, A. Imani, A. Keshavarz, M. Dehghani, A. Shakery, B. Nadjar Araabi
+  venue: ICLR 2023
+  venue_type: conference
   link:
-    url: https://arxiv.org/abs/2210.07998
-    code:  
+    url: https://openreview.net/forum?id=oztkQizr3kk
+    code: https://github.com/dr-faustus/Lambda-DARTS
 
 - title: "A learning to rank framework based on cross-lingual loss function for cross-lingual information retrieval"
   year: 2022
@@ -174,18 +175,18 @@
   venue: Applied Intelligence 52(3), 3156-3174
   venue_type: journal
   link:
-    url: https://link.springer.com/article/10.1007/s10489-021-02534-5
+    url: https://link.springer.com/article/10.1007/s10489-021-02592-z
     code:  
 
 # 2021
-- title: "Arman: Pre-training with semantically selecting and reordering of sentences for persian abstractive summarization"
+- title: "ARMAN: Pre-training with Semantically Selecting and Reordering of Sentences for Persian Abstractive Summarization"
   year: 2021
   authors: A. Salemi, E. Kebriaei, G.N. Minaei, A. Shakery
-  venue: arXiv preprint arXiv:2109.04098
-  venue_type: preprint
+  venue: EMNLP 2021 (Main Conference)
+  venue_type: conference
   link:
-    url: https://arxiv.org/abs/2109.04098
-    code:  
+    url: https://aclanthology.org/2021.emnlp-main.741/
+    code: https://github.com/alirezasalemi7/ARMAN
 
 - title: "WordNet construction for under-resourced languages using personalized PageRank"
   year: 2021
@@ -193,7 +194,7 @@
   venue: Digital Scholarship in the Humanities 36(3), 565-580
   venue_type: journal
   link:
-    url: https://academic.oup.com/dsh/article/36/3/565/5943563
+    url: https://doi.org/10.1093/llc/fqaa036
     code:  
 
 - title: "Online news media website ranking using user-generated content"
@@ -202,35 +203,35 @@
   venue: Journal of Information Science 47(3), 340-358
   venue_type: journal
   link:
-    url: https://journals.sagepub.com/doi/10.1177/0165551519887823
+    url: https://doi.org/10.1177/0165551519894928
     code:  
 
 - title: "NLP-IIS@UT at SemEval-2021 Task 4: Machine Reading Comprehension using the Long Document Transformer"
   year: 2021
   authors: H. Basafa, S. Movahedi, A. Ebrahimi, A. Shakery, H. Faili
-  venue: arXiv preprint arXiv:2105.03775
-  venue_type: preprint
+  venue: SemEval-2021 Workshop @ ACL-IJCNLP 2021
+  venue_type: workshop
   link:
-    url: https://arxiv.org/abs/2105.03775
+    url: https://aclanthology.org/2021.semeval-1.23/
     code:  
 
 - title: "UTNLP at SemEval-2021 task 5: A comparative analysis of toxic span detection using attention-based, named entity recognition, and ensemble models"
   year: 2021
   authors: A. Salemi, N. Sabri, E. Kebriaei, B. Bahrak, A. Shakery
-  venue: arXiv preprint arXiv:2104.04770
-  venue_type: preprint
+  venue: SemEval-2021 Workshop @ ACL-IJCNLP 2021
+  venue_type: workshop
   link:
-    url: https://arxiv.org/abs/2104.04770
+    url: https://aclanthology.org/2021.semeval-1.136/
     code:  
 
 # 2020
 - title: "Distilling knowledge for fast retrieval-based chat-bots"
   year: 2020
   authors: A. Vakili Tahami, K. Ghajar, A. Shakery
-  venue: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval
+  venue: SIGIR 2020
   venue_type: conference
   link:
-    url: https://dl.acm.org/doi/10.1145/3397271.3401325
+    url: https://dl.acm.org/doi/10.1145/3397271.3401296
     code:  
 
 - title: "An axiomatic approach to corpus-based cross-language information retrieval"
@@ -239,7 +240,7 @@
   venue: Information Retrieval Journal 23(3), 191-215
   venue_type: journal
   link:
-    url: https://link.springer.com/article/10.1007/s10791-020-09373-z
+    url: https://link.springer.com/article/10.1007/s10791-020-09372-2
     code:  
 
 - title: "Swash: A collective personal name matching framework"
@@ -248,7 +249,7 @@
   venue: Expert Systems with Applications 147, 113115
   venue_type: journal
   link:
-    url: https://www.sciencedirect.com/science/article/pii/S0957417420300270
+    url: https://doi.org/10.1016/j.eswa.2019.113115
     code:  
 
 - title: "Method and system for information retrieval"

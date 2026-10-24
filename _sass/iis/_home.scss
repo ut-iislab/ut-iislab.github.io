@@ -61,12 +61,12 @@
   pointer-events: none;
   path {
     fill: none;
-    stroke: var(--brand);
+    stroke: var(--ut);
     stroke-width: 1.25;
-    opacity: 0.35;
+    opacity: 0.55;
     transition: opacity 0.2s ease, stroke-width 0.2s ease;
   }
-  circle { fill: var(--brand); opacity: 0.6; }
+  circle { fill: var(--ut); }
   .is-drawing path { animation: align-draw 1.2s cubic-bezier(0.3, 0.6, 0.2, 1) both; }
 }
 @keyframes align-draw {
